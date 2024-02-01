@@ -1,7 +1,13 @@
 ---
 import Section from "../Section.astro";
+
+import { basics } from "@app/resources/cv.json";
+
+const { summary } = basics
 ---
 
 <Section tittle="About me">
+
+<pre>{summary}</pre>
 
 </Section>

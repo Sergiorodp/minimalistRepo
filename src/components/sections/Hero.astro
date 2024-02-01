@@ -3,20 +3,23 @@ import { basics } from "@app/resources/cv.json";
 
 //components
 import Section from "../Section.astro";
+import Title from "@app/components/Title.astro"
+import Subtitle from "@app/components/SubTitle.astro"
 
 const {name, label, image, location, profiles, phone, email} = basics
 
 const ICONS : Record<string, any> = {
-    'GitHub': '🐙'
+    'GitHub': '🐙',
+    'LinkedIn' : '👨🏻‍🦱'
 }
 ---
 
 <Section>
     <div class="hero-container">
         <div class="header-info">
-            <h1>{name}</h1>
-            <h2>{label}</h2>
-            <span> {location.city}, {location.region}</span>
+            <Title>{name}</Title>
+            <Subtitle>{label}</Subtitle>
+            <span> 🌐 {location.city}, {location.region}</span>
             <footer>
                 {
                     email && ( 
@@ -33,7 +36,7 @@ const ICONS : Record<string, any> = {
                         const icon = ICONS[network] ?? '❤️'
 
                         return(
-                            <a href={url} title={`${name} ${network}`} target="_blank" rel="noopener noreferrer">{icon}</a>
+                            <a href={url} title={`${network} for ${name} `} target="_blank" rel="noopener noreferrer">{icon}</a>
                         )
                     })
                 }
@@ -51,6 +54,30 @@ const ICONS : Record<string, any> = {
         margin-top: 4rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+
+    span{
+        color: grey;
+    }
+
+    img{
+        position: absolute;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    footer{
+        padding: .5rem 0;
+        display: flex;
+        width: 120px;
+        gap: 4px;
+        justify-content: space-between;
+    }
+
+    footer a{
+        justify-content: center;
     }
 
 </style>
