@@ -1,9 +1,9 @@
 ---
 import Section from "../Section.astro";
 
-import { basics } from "@app/resources/cv.json";
+import { cv } from "@app/components/utils/CV.astro";
 
-const { summary } = basics
+const { summary } = cv.basics
 ---
 
 <Section title="About me" hoverColor="blue">

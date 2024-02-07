@@ -1,8 +1,10 @@
 ---
 import Section from "../Section.astro";
 import Article from "@app/components/ExperienceArticle.astro";
-import { work } from "@cv";
+import { cv } from "@app/components/utils/CV.astro";
 import { MONTHS, obtenerFechaActualISO } from "@app/components/utils/Date.astro";
+
+const {work} = cv
 ---
 
 <Section title="Experience" hoverColor="yellow">

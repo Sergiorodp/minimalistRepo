@@ -1,0 +1,14 @@
+---
+import cv from '@cv'
+
+let i18nCv = cv.en
+const lang = document.documentElement.lang
+
+if( lang === 'es' || lang.toLocaleLowerCase().includes('es') ){
+    i18nCv = cv.es
+}
+
+export {
+    i18nCv as cv
+    }
+---

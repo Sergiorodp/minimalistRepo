@@ -1,0 +1,14 @@
+name: Deploy to main 
+on:
+  push:
+    branches: [main] # Activa el flujo de trabajo en la rama "main"
+  workflow_dispatch: # Permite ejecutar manualmente desde la pestaña Acciones en GitHub
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository using git

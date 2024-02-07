@@ -1,4 +1,5 @@
 {
+  "en" : {
     "basics": {
       "name": "Sergio Andres Rodriguez Perez",
       "label": "Electronic Engineer & Developer",
@@ -311,5 +312,320 @@
         "url": "https://miduconf.com"
       }
     ]
+  },
+  "es" : {
+    "basics": {
+      "name": "Sergio Andres Rodriguez Perez",
+      "label": "Ingeniero Electronico & Desarrollador",
+      "image": "./Sergio_photo_op.webp",
+      "email": "sergio.rod.perez@outlook.es",
+      "phone": "+57 3163215583",
+      "telegram": "https://t.me/Seandrod",
+      "url": "https://midu.dev",
+      "summary": "Hi my name is Sergio, Electronic Engineer, I have 2+ year of experience in BackEnd microservices, frontend, MVC and embedded development. Currently, involved improving my knowledge cloud services architecture for better performance in client solutions. I work on different integration technologies, tools and frameworks like Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem among others. In process to expertises in Cloud arquitecture and agile methodologies.\n\nStrong knowledge of DevOps practices and software life cycle. Applying this in ETB & BBVA apps like MiTEB, BBVA app, and backend services.\n\nWith a professional degree in Electronic engineer from Sergio Arboleda University, Bogotá (Colombia), AWS Cloud practitioner certification and AWS Developer Associate incoming, last but no less important English C1.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Bogotá",
+        "countryCode": "ES",
+        "region": "Colombia"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Sergio Andres Rodriguez",
+          "url": "https://www.linkedin.com/in/sergiorodriguezp/",
+          "show" :  true
+        },
+        {
+          "network": "GitHub",
+          "username": "Sergiorodp",
+          "url": "https://github.com/Sergiorodp",
+          "show" :  true
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Accenture with BBVA",
+        "position": "Custom Software Engineering Associate",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2023-02-01",
+        "endDate": null,
+        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit) and Lit-Html, Monitoring with IBM tealeaf, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable user experience and design.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Accenture with ETB",
+        "position": "Associate Application Developer",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2021-01-05",
+        "endDate": "2023-02-01",
+        "summary": "Developer in Back services, front-end design and database management for different softwares used by ETB, such as SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SRUM, and CI/CD management for code deploy and quality control.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Solutions",
+        "position": "Software Engineer",
+        "startDate": "2021-06-01",
+        "endDate": "2021-11-01",
+        "summary": "Develop embebed software for an start up company, focus in virtual electronic engineer lab, a solution for student that need real testing electronic components, an online environment designed with virtual reality and phidget boards.",
+        "highlights": [
+          "Started the company"
+        ]
+      }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Deployment of Docker applications",
+      "studyType": "technician",
+      "startDate": "2023-08-20",
+      "endDate": "2023-10-01",
+      "summary": "Short course",
+      "score": "4.4",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },{
+      "institution": "Sergio Arboleda University",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Electronic Engineer",
+      "studyType": "Bachelor",
+      "startDate": "2018-01-05",
+      "endDate": "2022-01-01",
+      "summary": "Electronic engineering degree with emphasis on IoT, Machine Learning and embedded systems.",
+      "score": "4.4",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "AWS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "Docker",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": ".NET",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },{
+        "name": "mongoDB",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "SCRUM",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Advanced"
+      }
+    ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "mars.codes",
+        "isActive": true,
+        "description": "Historia interactiva con retos de programación para viajar a Marte",
+        "highlights": [
+          "Elige tu propia aventura",
+          "En desarrollo"
+        ],
+        "url": "https://mars.codes"
+      },
+      {
+        "name": "AdventJS",
+        "isActive": true,
+        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+        "highlights": [
+          "+1 millón de visitas",
+          "Multidioma",
+          "JavaScript & TypeScript"
+        ],
+        "url": "https://advent.js/dev"
+      },
+      {
+        "name": "Codember",
+        "isActive": true,
+        "description": "Juego interactivo de programación con retos y secretos",
+        "highlights": [
+          "+2000 usuarios activos",
+          "Retos para cualquier lenguaje"
+        ],
+        "url": "https://codember.dev"
+      },
+      {
+        "name": "codi.link",
+        "isActive": true,
+        "description": "Playground de código HTML, CSS y JavaScript para compartir",
+        "highlights": [
+          "100k visitas al mes",
+          "Desarrollado por la comunidad"
+        ],
+        "url": "https://codi.link",
+        "github": "https://github.com/midudev/codi.link"
+      },
+      {
+        "name": "Pruebas Técnicas",
+        "isActive": true,
+        "description": "Lista de pruebas técnicas de empresas para practicar programación",
+        "highlights": [
+          "100% gratuito",
+          "+500 soluciones de la comunidad"
+        ],
+        "url": "https://pruebastecnicas.com",
+        "github": "https://github.com/midudev/pruebas-tecnicas"
+      },
+      {
+        "name": "miduConf",
+        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+        "highlights": [
+          "+15k tickets repartidos",
+          "+50k espectadores en directo"
+        ],
+        "url": "https://miduconf.com"
+      }
+    ]
   }
+}
   
