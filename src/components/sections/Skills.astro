@@ -1,9 +1,9 @@
 ---
 import Section from "@app/components/Section.astro";
 import Skill from "@app/components/Skill.astro";
-import CV from "@cv";
+import { cv } from "@app/components/utils/CV.astro";
 
-const {skills} = CV
+const { skills } = cv
 ---
 
 <Section title="Skills" hoverColor="green">
