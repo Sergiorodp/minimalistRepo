@@ -1,0 +1,30 @@
+---
+import Section from "@app/components/Section.astro";
+import Skill from "@app/components/Skill.astro";
+import CV from "@cv";
+
+const {skills} = CV
+---
+
+<Section title="Skills" hoverColor="green">
+    <div class="skillContainer">
+        {
+            skills.map(({name})=>{
+                return(
+                <Skill>
+                    {name}
+                </Skill>
+                )
+            })
+        }
+    </div>
+ 
+</Section>
+
+<style>
+    .skillContainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+</style>

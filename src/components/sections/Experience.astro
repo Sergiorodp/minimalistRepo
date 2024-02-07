@@ -1,0 +1,38 @@
+---
+import Section from "../Section.astro";
+import Article from "@app/components/ExperienceArticle.astro";
+import { work } from "@cv";
+import { obtenerFechaActualISO } from "@app/components/utils/Date.astro";
+---
+
+<Section title="Experience" hoverColor="yellow">
+    <ul>
+        {
+            work.map(({name, position, startDate, endDate, summary}) => {
+                const startSplit = startDate?.split('-')
+                const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
+                startDate = `${startSplit[0]}/${startSplit[1]}`
+                endDate = `${endDateSplit[0]}/${endDateSplit[1]}`
+                return (
+                    <li>
+                        <Article
+                            name={name}
+                            position={position}
+                            startDate={startDate}
+                            endDate={endDate}
+                            summary={summary}
+                        >
+                        </Article>
+                    </li>
+                )
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+</style>

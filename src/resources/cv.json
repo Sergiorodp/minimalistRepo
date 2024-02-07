@@ -31,10 +31,10 @@
     },
     "work": [
       {
-        "name": "midudev",
-        "position": "Divulgador sobre Programación Web",
+        "name": "Accenture with BBVA",
+        "position": "Custom Software Engineering Associate",
         "url": "https://twitch.tv/midudev",
-        "startDate": "2021-01-01",
+        "startDate": "2023-02-01",
         "endDate": null,
         "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
         "highlights": [
@@ -42,22 +42,22 @@
         ]
       },
       {
-        "name": "Adevinta",
-        "position": "Lead Frontend Architect",
+        "name": "Accenture with ETB",
+        "position": "Associate Application Developer",
         "url": "https://twitch.tv/midudev",
-        "startDate": "2016-06-01",
-        "endDate": "2022-09-01",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+        "startDate": "2021-01-05",
+        "endDate": "2023-02-01",
+        "summary": "Developer in Back services, front-end design and database management for different softwares used by ETB, such as SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SRUM, and CI/CD management for code deploy and quality control.",
         "highlights": [
           "Started the company"
         ]
       },
       {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2016-05-01",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+        "name": "Solutions",
+        "position": "Software Engineer",
+        "startDate": "2021-06-01",
+        "endDate": "2021-11-01",
+        "summary": "Develop embebed software for an start up company, focus in virtual electronic engineer lab, a solution for student that need real testing electronic components, an online environment designed with virtual reality and phidget boards.",
         "highlights": [
           "Started the company"
         ]
@@ -75,13 +75,26 @@
       ]
     }],
     "education": [{
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "area": "Deployment of Docker applications",
+      "studyType": "technician",
+      "startDate": "2023-08-20",
+      "endDate": "2023-09-01",
+      "summary": "Short course",
+      "score": "4.4",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },{
+      "institution": "Sergio Arboleda University",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Electronic Engineer",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
+      "startDate": "2018-01-05",
+      "endDate": "2022-01-01",
+      "summary": "Electronic engineering degree with emphasis on IoT, Machine Learning and embedded systems.",
+      "score": "4.4",
       "courses": [
         "DB1101 - Basic SQL"
       ]
@@ -107,6 +120,40 @@
     }],
     "skills": [
       {
+        "name": "AWS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "Docker",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": ".NET",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },{
+        "name": "mongoDB",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
         "name": "HTML",
         "level": "Master",
         "keywords": [
@@ -128,13 +175,6 @@
         ]
       },
       {
-        "name": "Tailwind",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
         "name": "TypeScript",
         "level": "Avanzado",
         "keywords": [
@@ -142,7 +182,14 @@
         ]
       },
       {
-        "name": "Node",
+        "name": "Next.js",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "React",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
@@ -167,20 +214,6 @@
         "level": "Avanzado",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
-      {
-        "name": "React",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
         ]
       }
     ],

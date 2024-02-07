@@ -1,0 +1,40 @@
+---
+import Section from "../Section.astro";
+import Article from "@app/components/ExperienceArticle.astro";
+import  CV from "@cv";
+import { obtenerFechaActualISO } from "@app/components/utils/Date.astro";
+
+const { education } = CV
+
+---
+
+<Section title="Education" hoverColor="red">
+    <ul>
+        {
+            education.map(({area, summary, startDate, endDate, institution}) => {
+                const startSplit = startDate?.split('-')
+                const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
+                startDate = `${startSplit[0]}/${startSplit[1]}`
+                endDate = `${endDateSplit[0]}/${endDateSplit[1]}`
+                return (
+                    <li>
+                        <Article
+                            name={area}
+                            position={institution}
+                            startDate={startDate}
+                            endDate={endDate}
+                            summary={summary}
+                        >
+                        </Article>
+                    </li>
+                )
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    ul{
+        padding: 0;
+    }
+</style>

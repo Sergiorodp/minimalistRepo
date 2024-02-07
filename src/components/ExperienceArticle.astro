@@ -1,0 +1,46 @@
+---
+const {name, position, startDate, endDate, summary} = Astro.props;
+---
+
+<article>
+    <header>
+        <div>
+            <h3>{name}</h3>
+            <h4>{position}</h4>
+        </div>
+        <span>{`${startDate} - ${endDate}`}</span>
+    </header>
+    <p>{summary}</p>
+</article>
+
+<style>
+    header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 0.5rem;
+    }
+
+    article{
+        margin-bottom: 1rem;
+    }
+
+    span{
+        padding: 0px 1rem 0px 0px;
+        display: flex;
+        justify-content: end;
+        color: #454545;
+    }
+
+    h3{
+        color: #454545;
+    }
+
+    h4{
+        color: #747474;
+        font-size: .9rem;
+    }
+
+    p{
+        font-size: .8rem;
+    }
+</style>

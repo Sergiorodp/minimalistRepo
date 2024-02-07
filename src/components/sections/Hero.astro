@@ -17,7 +17,7 @@ const ICONS : Record<string, any> = {
 <Section>
     <div class="hero-container">
         <div class="header-info">
-            <Title>{name}</Title>
+            <h1>{name}</h1>
             <Subtitle>{label}</Subtitle>
             <span> 🌐 {location.city}, {location.region}</span>
             <footer>
@@ -36,14 +36,14 @@ const ICONS : Record<string, any> = {
                         const icon = ICONS[network] ?? '❤️'
 
                         return(
-                            <a href={url} title={`${network} for ${name} `} target="_blank" rel="noopener noreferrer">{icon}</a>
+                            <a href={url} title={`${network} - ${name} `} target="_blank" rel="noopener noreferrer">{icon}</a>
                         )
                     })
                 }
             </footer>
         </div>
         <figure>
-            <img src={image} alt={`${name} photo`} width="200"/>
+            <img src={image} alt={`${name}`} width="200"/>
         </figure>
     </div>
 </Section>
@@ -56,6 +56,11 @@ const ICONS : Record<string, any> = {
         grid-template-columns: repeat(2,1fr);
     }
 
+    h1{
+        color: black;
+        font-size: 2rem;
+        line-height: 1.2;
+    }
     span{
         color: grey;
     }
@@ -68,9 +73,15 @@ const ICONS : Record<string, any> = {
         border-radius: 10px;
     }
 
-    footer{
-        padding: .5rem 0;
+    figure{
         display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        padding: .5rem 0;
         width: 120px;
         gap: 4px;
         justify-content: space-between;

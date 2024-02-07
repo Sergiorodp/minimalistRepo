@@ -1,17 +1,19 @@
 ---
- const { tittle } = Astro.props
-
  import Title from "@app/components/Title.astro"
+ const { title: title, hoverColor } = Astro.props
 ---
 
 <section>
-    {tittle && <Title>{tittle}</Title>}
+    {title && <Title>{title}</Title>}
     <slot/>
 </section>
 
-<style>
+<style
+    define:vars={{hoverColor}}
+>
     section{
         max-width: 700px;
-        margin: 0 auto 1rem;
+        margin: 0 auto 2rem;
+        --pq-title-hover-color: var(--hoverColor);
     }
 </style>
