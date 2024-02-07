@@ -2,7 +2,7 @@
     <slot/>
 </h1>
 
-<style>
+<style lang="scss">
     .title{
         color: black;
         font-size: 1.5rem;
@@ -10,7 +10,17 @@
         margin-bottom: 1rem;
     }
 
+    :global(.dark) .title{
+        color: aliceblue;
+    }
+
     .title:hover{
-        color: var(--pq-title-hover-color, black);
+        color: var(black);
+    }
+
+    @media print{
+        .title{
+            color: black !important;
+        }
     }
 </style>

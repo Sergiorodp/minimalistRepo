@@ -13,7 +13,7 @@ const {name, position, startDate, endDate, summary} = Astro.props;
     <p>{summary}</p>
 </article>
 
-<style>
+<style lang="scss">
     header{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -42,5 +42,47 @@ const {name, position, startDate, endDate, summary} = Astro.props;
 
     p{
         font-size: .8rem;
+    }
+
+    :global(.dark){
+            h3{
+                color: rgb(220, 219, 219);
+            }
+
+            span{
+                color: rgb(220, 219, 219);
+            }
+        }
+
+    @media print{
+        header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 0.5rem;
+    }
+
+    article{
+        margin-bottom: 1rem;
+    }
+
+    span{
+        padding: 0px 1rem 0px 0px;
+        display: flex;
+        justify-content: end;
+        color: #454545;
+    }
+
+    h3{
+        color: #454545;
+    }
+
+    h4{
+        color: #747474;
+        font-size: .9rem;
+    }
+
+    p{
+        font-size: .8rem;
+    }
     }
 </style>

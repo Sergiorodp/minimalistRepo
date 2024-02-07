@@ -20,10 +20,14 @@ const { title } = Astro.props;
 		<slot />
 	</body>
 </html>
-<style is:global>
+<style is:global lang="scss">
 	html{
 		font-family: Andale Mono, monospace;
 		background: #fff;
+	}
+
+	html.dark{
+		background: #0D1117;
 	}
 
 	body,
@@ -47,14 +51,14 @@ const { title } = Astro.props;
 
 	@media (prefers-color-sheme: dark){
 		html{
-			background: #000;
+			background: #0D1117;
 			color: #fff;
 		}
 	}
 
 	h1, h2, h3, h4 {
 		margin: 0;
-		font-family: Andale Mono, monospace;	
+		font-family: Andale Mono, monospace;
 	}
 
 	p, pre{
@@ -64,4 +68,12 @@ const { title } = Astro.props;
 		margin: 0;
 		color: #757575;
 	}
+
+	.dark{
+		p,pre{
+			color: #cbcbcb;
+		}
+	}
+
+
 </style>

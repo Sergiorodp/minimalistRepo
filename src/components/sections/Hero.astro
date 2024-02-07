@@ -22,7 +22,7 @@ const ICONS : Record<string, any> = {
     </div>
     <div class="hero-container">
         <div class="header-info">
-            <h1>{name}</h1>
+            <h1 class="name">{name}</h1>
             <Subtitle>{label}</Subtitle>
             <span> 🌐 {location.city}, {location.region}</span>
             <footer>
@@ -53,7 +53,7 @@ const ICONS : Record<string, any> = {
     </div>
 </Section>
 
-<style>
+<style lang="scss">
 
     .hero-container{
         margin-top: 4rem;
@@ -61,10 +61,14 @@ const ICONS : Record<string, any> = {
         grid-template-columns: repeat(2,1fr);
     }
 
-    h1{
+    .name{
         color: black;
         font-size: 2rem;
         line-height: 1.2;
+    }
+
+    :global(.dark) .name{
+        color: aliceblue;
     }
     span{
         color: grey;
@@ -90,13 +94,24 @@ const ICONS : Record<string, any> = {
         width: 120px;
         gap: 4px;
         justify-content: space-between;
+
+        a{
+            justify-content: center;
+        }
     }
 
-    footer a{
-        justify-content: center;
+    .themeIcon{
+        display: flex;
+        position: absolute;
+        top: 0;
+        padding: 1rem 0 0 0;
+        cursor: pointer;
     }
-
     
-
+    @media print{
+        .name{
+            color: black !important;
+        }       
+    }
 </style>
 
