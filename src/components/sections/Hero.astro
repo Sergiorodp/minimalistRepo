@@ -3,7 +3,6 @@ import { basics } from "@app/resources/cv.json";
 
 //components
 import Section from "../Section.astro";
-import Title from "@app/components/Title.astro"
 import Subtitle from "@app/components/SubTitle.astro"
 import ThemeIcon from "@app/components/icons/ThemeIcon.astro";
 import PrintIcon from "@app/components/icons/PrintIcon.astro";
@@ -40,7 +39,7 @@ const ICONS : Record<string, any> = {
                         )
                     }
                     {
-                        profiles.map(({network, url, show}) => {
+                        profiles.map(({network, url}) => {
                             const icon = ICONS[network] ?? '❤️'
     
                             return(
