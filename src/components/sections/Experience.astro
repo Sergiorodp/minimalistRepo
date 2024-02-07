@@ -2,7 +2,7 @@
 import Section from "../Section.astro";
 import Article from "@app/components/ExperienceArticle.astro";
 import { work } from "@cv";
-import { obtenerFechaActualISO } from "@app/components/utils/Date.astro";
+import { MONTHS, obtenerFechaActualISO } from "@app/components/utils/Date.astro";
 ---
 
 <Section title="Experience" hoverColor="yellow">
@@ -11,8 +11,8 @@ import { obtenerFechaActualISO } from "@app/components/utils/Date.astro";
             work.map(({name, position, startDate, endDate, summary}) => {
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
-                startDate = `${startSplit[0]}/${startSplit[1]}`
-                endDate = `${endDateSplit[0]}/${endDateSplit[1]}`
+                startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
+                endDate = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
                 return (
                     <li>
                         <Article

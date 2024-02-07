@@ -2,7 +2,7 @@
 import Section from "../Section.astro";
 import Article from "@app/components/ExperienceArticle.astro";
 import  CV from "@cv";
-import { obtenerFechaActualISO } from "@app/components/utils/Date.astro";
+import { obtenerFechaActualISO, MONTHS } from "@app/components/utils/Date.astro";
 
 const { education } = CV
 
@@ -14,8 +14,8 @@ const { education } = CV
             education.map(({area, summary, startDate, endDate, institution}) => {
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
-                startDate = `${startSplit[0]}/${startSplit[1]}`
-                endDate = `${endDateSplit[0]}/${endDateSplit[1]}`
+                startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
+                endDate = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
                 return (
                     <li>
                         <Article
