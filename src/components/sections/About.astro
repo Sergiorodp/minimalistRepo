@@ -4,8 +4,24 @@ import Section from "../Section.astro";
 import { basics } from "@app/resources/cv.json";
 
 const { summary } = basics
+
+const paraphs = summary.split('\n\n')
 ---
 
 <Section title="About me" hoverColor="blue">
-    <pre>{summary}</pre>
+    {
+        paraphs.map(paraph => {
+            return(
+                <p>{paraph}</p>
+                <br>
+            )
+        })
+    }
 </Section>
+
+<style>
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+</style>
