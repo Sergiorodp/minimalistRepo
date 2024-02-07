@@ -70,7 +70,7 @@ const { title } = Astro.props;
 	}
 
 	.container{
-		margin-top: 5rem;
+		margin-top: 6rem;
 		margin-bottom: 4rem;
 	}
 
@@ -117,6 +117,12 @@ const { title } = Astro.props;
 			margin-bottom: 1rem;
 			padding: 1rem;
 			width: 100vw;
+		}
+	}
+
+	@media print{
+		footer pre{
+			display: none !important;
 		}
 	}
 

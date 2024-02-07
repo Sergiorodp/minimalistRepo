@@ -20,6 +20,7 @@ const ICONS : Record<string, any> = {
     <div class="themeIcon">
         <ThemeIcon></ThemeIcon>
         <PrintIcon></PrintIcon>
+        <span> ⬅️ Click here </span>
     </div>
     <div class="hero-container">
         <div class="header-info">
@@ -27,25 +28,40 @@ const ICONS : Record<string, any> = {
             <Subtitle>{label}</Subtitle>
             <span> 🌐 {location.city}, {location.region}</span>
             <footer>
-                {
-                    email && ( 
-                            <a href={`mailto:${email}`} title={`Send a email to ${name} at ${email}`} target="_blank" rel="noopener noreferrer">📧</a>
+                <div class="icons">
+                    {
+                        email && ( 
+                                <a href={`mailto:${email}`} title={`Send a email to ${name} at ${email}`} target="_blank" rel="noopener noreferrer">📧</a>
+                            )
+                    }
+                    {
+                        phone && (
+                        <a href={`tel:${phone}`} title={`call ${name} at ${phone}`} target="_blank" rel="noopener noreferrer">📱</a>
                         )
-                }
-                {
-                    phone && (
-                    <a href={`tel:${phone}`} title={`call ${name} at ${phone}`} target="_blank" rel="noopener noreferrer">📱</a>
-                    )
-                }
-                {
-                    profiles.map(({network, url, show}) => {
-                        const icon = ICONS[network] ?? '❤️'
-
-                        return(
-                            <a href={url} title={`${network} - ${name} `} target="_blank" rel="noopener noreferrer">{icon}</a>
-                        )
-                    })
-                }
+                    }
+                    {
+                        profiles.map(({network, url, show}) => {
+                            const icon = ICONS[network] ?? '❤️'
+    
+                            return(
+                                <a href={url} title={`${network} - ${name} `} target="_blank" rel="noopener noreferrer">{icon}</a>
+                            )
+                        })
+                    }
+                </div>
+                <div class="print">
+                    {
+                        email && <p>{email}</p>
+                    }
+                    {
+                        profiles.map(({url}) => {
+                            if(url.includes('linkedin')) 
+                                return(
+                                    <p>{url}</p>
+                                )
+                        })
+                    }
+                </div>
             </footer>
         </div>
         <figure>
@@ -92,7 +108,7 @@ const ICONS : Record<string, any> = {
         justify-content: center;
     }
 
-    footer{
+    footer .icons{
         display: flex;
         justify-content: center;
         padding: .5rem 0;
@@ -105,12 +121,24 @@ const ICONS : Record<string, any> = {
         }
     }
 
+    footer{
+        .print{
+            margin-top: .5rem;
+            display: none;
+        }
+    }
+
     .themeIcon{
         display: flex;
         position: absolute;
+        align-items: center;
         top: 0;
         padding: 1rem 0 0 0;
         cursor: pointer;
+
+        span{
+            margin-left: 1rem;
+        }
     }
 
     @media only screen and (max-width: 600px){
@@ -149,6 +177,15 @@ const ICONS : Record<string, any> = {
 
         .themeIcon{
             display: none;
+        }
+
+        footer{
+            .print{
+                display: block;
+            }
+            .icons{
+                display: none;
+            }
         }
     }
 </style>
