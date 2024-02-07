@@ -56,7 +56,6 @@ const ICONS : Record<string, any> = {
 <style lang="scss">
 
     .hero-container{
-        margin-top: 4rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
@@ -106,6 +105,31 @@ const ICONS : Record<string, any> = {
         top: 0;
         padding: 1rem 0 0 0;
         cursor: pointer;
+    }
+
+    @media only screen and (max-width: 600px){
+        .hero-container{
+            display: grid;
+            grid-template-columns: 55% 45%;
+        }
+
+        .name{
+            font-size: 1.5rem;
+        }
+
+        img{
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            width: 125px;
+            border-radius: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 441px){
+        figure{
+            justify-content: end;
+        }
+
     }
     
     @media print{

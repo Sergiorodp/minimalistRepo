@@ -36,7 +36,7 @@
         "url": "https://twitch.tv/midudev",
         "startDate": "2023-02-01",
         "endDate": null,
-        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit) and Lit-Html, Monitoring with IBM tealeaf, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable user experience and design.",
         "highlights": [
           "Started the company"
         ]
@@ -154,6 +154,13 @@
         ]
       },
       {
+        "name": "PostgreSQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
         "name": "HTML",
         "level": "Master",
         "keywords": [
@@ -195,13 +202,7 @@
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
         ]
       },
-      {
-        "name": "MySQL",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
+      
       {
         "name": "Git",
         "level": "Avanzado",
@@ -214,6 +215,13 @@
         "level": "Avanzado",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "SCRUM",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
         ]
       }
     ],
