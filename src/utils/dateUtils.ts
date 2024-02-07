@@ -1,13 +1,11 @@
----
 export function obtenerFechaActualISO() : string {
-    const fecha = Date({}).split(' ');
-
-    const dia = fecha[2];
-    const mes = fecha[1];
-    const año = fecha[3];
+    const fecha = new Date();
+    const dia = fecha.getUTCDate();
+    const mes = fecha.getUTCMonth() + 1; // Sumamos 1 porque los meses comienzan desde 0
+    const año = fecha.getUTCFullYear();
 
     // Formateamos la fecha como yyyy-mm-dd
-    const fechaFormateada = `${año}-${MONTHNUM[mes]}-${dia}`;
+    const fechaFormateada = `${año}-${mes.toString().padStart(2, '0')}-${dia.toString().padStart(2, '0')}`;
 
     return fechaFormateada;
 }
@@ -31,4 +29,3 @@ export const MONTHNUM = Object.entries(MONTHS).reduce((acc : Record<string, stri
     acc[value] = key;
     return acc;
 }, {});
----

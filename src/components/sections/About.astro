@@ -1,11 +1,17 @@
 ---
 import Section from "../Section.astro";
+import { en, es } from "@cv";
 
-import { cv } from "@app/components/utils/CV.astro";
+//i18n
+import { useTranslations } from '@app/i18n/utils'
 
+const { lang } = Astro.props
+const cv = (lang === 'es') ? es : en
 const { summary } = cv.basics
+
+const t = useTranslations(lang)
 ---
 
-<Section title="About me" hoverColor="blue">
+<Section title={t('section.about')} hoverColor="blue">
     <pre>{summary}</pre>
 </Section>

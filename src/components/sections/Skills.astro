@@ -1,12 +1,16 @@
 ---
 import Section from "@app/components/Section.astro";
 import Skill from "@app/components/Skill.astro";
-import { cv } from "@app/components/utils/CV.astro";
+import { useTranslations } from "@app/i18n/utils";
+import { en, es } from "@cv";
 
-const { skills } = cv
+const { lang } = Astro.props
+const { skills } = lang === 'es' ? es : en
+
+const t = useTranslations(lang)
 ---
 
-<Section title="Skills" hoverColor="green">
+<Section title={t('section.skills')} hoverColor="green">
     <div class="skillContainer">
         {
             skills.map(({name})=>{

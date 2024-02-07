@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '@app/layouts/Layout.astro';
 
 //commponents
 import Hero from '@app/components/sections/Hero.astro';
@@ -7,13 +7,16 @@ import About from '@app/components/sections/About.astro';
 import Education from '@app/components/sections/Education.astro';
 import Experience from '@app/components/sections/Experience.astro';
 import Skills from '@app/components/sections/Skills.astro';
+
+const lang = 'es'
+
 ---
 
 <Layout title="Sergio Andres Rodriguez Backend CV">
-	<Hero></Hero>
-	<About></About>
-	<Experience></Experience>
-	<Education></Education>
-	<Skills></Skills>
+	<Hero lang={lang} ></Hero>
+	<About lang={lang} ></About>
+	<Experience lang={lang}></Experience>
+	<Education lang={lang}></Education>
+	<Skills lang={lang}></Skills>
 </Layout>
 

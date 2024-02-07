@@ -1,14 +1,19 @@
 ---
 import Section from "../Section.astro"
 import Article from "@app/components/ExperienceArticle.astro"
-import  { cv } from "@app/components/utils/CV.astro"
-import { obtenerFechaActualISO, MONTHS } from "@app/components/utils/Date.astro"
+import { en, es } from "@cv";
+import { obtenerFechaActualISO, MONTHS } from "@app/utils/dateUtils"
+//i18n
+import { useTranslations } from '@app/i18n/utils'
 
-const { education } = cv
+const { lang } = Astro.props
+const { education } = lang === 'es' ? es : en
+
+const t = useTranslations(lang)
 
 ---
 
-<Section title="Education" hoverColor="red">
+<Section title={t('section.education')} hoverColor="red">
     <ul>
         {
             education.map(({area, summary, startDate, endDate, institution}) => {

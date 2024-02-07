@@ -89,7 +89,7 @@
         "DB1101 - Basic SQL"
       ]
     },{
-      "institution": "Sergio Arboleda University",
+      "institution": "Universidad Sergio Arboleda",
       "url": "https://www.uoc.edu/portal/es/index.html",
       "area": "Electronic Engineer",
       "studyType": "Bachelor",
@@ -322,7 +322,7 @@
       "phone": "+57 3163215583",
       "telegram": "https://t.me/Seandrod",
       "url": "https://midu.dev",
-      "summary": "Hi my name is Sergio, Electronic Engineer, I have 2+ year of experience in BackEnd microservices, frontend, MVC and embedded development. Currently, involved improving my knowledge cloud services architecture for better performance in client solutions. I work on different integration technologies, tools and frameworks like Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem among others. In process to expertises in Cloud arquitecture and agile methodologies.\n\nStrong knowledge of DevOps practices and software life cycle. Applying this in ETB & BBVA apps like MiTEB, BBVA app, and backend services.\n\nWith a professional degree in Electronic engineer from Sergio Arboleda University, Bogotá (Colombia), AWS Cloud practitioner certification and AWS Developer Associate incoming, last but no less important English C1.",
+      "summary": "Hola mi nombre es Sergio, Ingeniero Electrónico, tengo 2+ años de experiencia en BackEnd microservicios, frontend, MVC y desarrollo embebido. Actualmente, involucrado mejorando mis conocimientos de arquitectura de servicios en la nube para un mejor rendimiento en las soluciones del cliente. Trabajo en diferentes tecnologías de integración, herramientas y frameworks como Node.js, .NET, Next.js, STM32, Azure DevOps, AWS Ecosystem y otros. En proceso de expertises en tecnologias cloud y metodologías ágiles. Sólidos conocimientos de prácticas DevOps y ciclo de vida del software. Aplicando esto en ETB & BBVA apps como MiTEB, BBVA app, y servicios backend.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -352,7 +352,7 @@
         "url": "https://twitch.tv/midudev",
         "startDate": "2023-02-01",
         "endDate": null,
-        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit) and Lit-Html, Monitoring with IBM tealeaf, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable user experience and design.",
+        "summary": "Relacionado con el desarrollo front-end para aplicaciones y webs de BBVA, utilizando tecnologías como Web components con Lit-element (ahora solo lit) y Lit-Html, Monitorización con IBM tealeaf, AWS S3 para almacenamiento de deploy y frameworks de BBVA basados en JS y Java, aplicando conocimientos avanzados de navegadores para hacer eficiente y cómoda la experiencia de usuario y el diseño.",
         "highlights": [
           "Started the company"
         ]
@@ -363,7 +363,7 @@
         "url": "https://twitch.tv/midudev",
         "startDate": "2021-01-05",
         "endDate": "2023-02-01",
-        "summary": "Developer in Back services, front-end design and database management for different softwares used by ETB, such as SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SRUM, and CI/CD management for code deploy and quality control.",
+        "summary": "Desarrollador en Back services, diseño front-end y gestión de bases de datos para diferentes softwares utilizados por ETB, como portal SUMA, MiETB, Luz (bot) y servicios de autogestión, utilizando metodologías ágiles como SRUM, y gestión CI/CD para despliegue de código y control de calidad.",
         "highlights": [
           "Started the company"
         ]
@@ -373,7 +373,7 @@
         "position": "Software Engineer",
         "startDate": "2021-06-01",
         "endDate": "2021-11-01",
-        "summary": "Develop embebed software for an start up company, focus in virtual electronic engineer lab, a solution for student that need real testing electronic components, an online environment designed with virtual reality and phidget boards.",
+        "summary": "Desarrollo de software embebido para una empresa de nueva creación, se centran en el laboratorio virtual ingeniero electrónico, una solución para los estudiantes que necesitan componentes electrónicos de prueba real, un entorno en línea diseñado con la realidad virtual y placas phidget.",
         "highlights": [
           "Started the company"
         ]
@@ -393,7 +393,7 @@
     "education": [{
       "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Deployment of Docker applications",
+      "area": "Despliegue de aplicaciones Docker",
       "studyType": "technician",
       "startDate": "2023-08-20",
       "endDate": "2023-10-01",
@@ -405,11 +405,11 @@
     },{
       "institution": "Sergio Arboleda University",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Electronic Engineer",
+      "area": "Ingeniero electrónico",
       "studyType": "Bachelor",
       "startDate": "2018-01-05",
       "endDate": "2022-01-01",
-      "summary": "Electronic engineering degree with emphasis on IoT, Machine Learning and embedded systems.",
+      "summary": "Grado en Ingeniería Electrónica con énfasis en IoT, Machine Learning y sistemas embebidos.",
       "score": "4.4",
       "courses": [
         "DB1101 - Basic SQL"

@@ -1,15 +1,18 @@
 ---
-import { cv } from "@app/components/utils/CV.astro";
-
-const { basics } = cv
-
+import { en, es} from '@cv'
 //components
 import Section from "../Section.astro";
 import Subtitle from "@app/components/SubTitle.astro"
 import ThemeIcon from "@app/components/icons/ThemeIcon.astro";
 import PrintIcon from "@app/components/icons/PrintIcon.astro";
+import { useTranslations } from '@app/i18n/utils';
 
+const { lang } = Astro.props
+
+const { basics } = lang === 'es' ? es : en 
 const {name, label, image, location, profiles, telegram, email} = basics
+
+const t = useTranslations(lang)
 
 const ICONS : Record<string, any> = {
     'GitHub': '🐙',
