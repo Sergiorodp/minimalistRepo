@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "Minimalist-Sergio-Rodriguez-CV",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,8 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.3.0",
     "@astrojs/check": "^0.4.1",
+    "astro": "^4.3.0"
+  },
+  "devDependencies": {
+    "sass": "1.70.0",
     "typescript": "^5.3.3"
   }
 }

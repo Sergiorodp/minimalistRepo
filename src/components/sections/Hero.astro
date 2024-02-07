@@ -5,6 +5,7 @@ import { basics } from "@app/resources/cv.json";
 import Section from "../Section.astro";
 import Title from "@app/components/Title.astro"
 import Subtitle from "@app/components/SubTitle.astro"
+import SunMoon from "@app/components/icons/ThemeIcon.astro";
 
 const {name, label, image, location, profiles, phone, email} = basics
 
@@ -15,6 +16,10 @@ const ICONS : Record<string, any> = {
 ---
 
 <Section>
+    <div class="themeIcon">
+        <SunMoon>
+        </SunMoon>
+    </div>
     <div class="hero-container">
         <div class="header-info">
             <h1>{name}</h1>
@@ -90,6 +95,8 @@ const ICONS : Record<string, any> = {
     footer a{
         justify-content: center;
     }
+
+    
 
 </style>
 
