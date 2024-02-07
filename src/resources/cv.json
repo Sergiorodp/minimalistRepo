@@ -322,7 +322,7 @@
       "phone": "+57 3163215583",
       "telegram": "https://t.me/Seandrod",
       "url": "https://midu.dev",
-      "summary": "Hola mi nombre es Sergio, Ingeniero Electrónico, tengo 2+ años de experiencia en BackEnd microservicios, frontend, MVC y desarrollo embebido. Actualmente, involucrado mejorando mis conocimientos de arquitectura de servicios en la nube para un mejor rendimiento en las soluciones del cliente. Trabajo en diferentes tecnologías de integración, herramientas y frameworks como Node.js, .NET, Next.js, STM32, Azure DevOps, AWS Ecosystem y otros. En proceso de expertises en tecnologias cloud y metodologías ágiles. Sólidos conocimientos de prácticas DevOps y ciclo de vida del software. Aplicando esto en ETB & BBVA apps como MiTEB, BBVA app, y servicios backend.",
+      "summary": "Hola mi nombre es Sergio, Ingeniero Electrónico, tengo 2+ años de experiencia en BackEnd microservicios, frontend, MVC y desarrollo embebido. Actualmente, involucrado mejorando mis conocimientos de arquitectura de servicios en la nube para un mejor rendimiento en las soluciones del cliente. Trabajo en diferentes tecnologías de integración, herramientas y frameworks como Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem entre otros. En proceso de expertises en arquitectura Cloud y metodologías ágiles.\n\nSólidos conocimientos en prácticas DevOps y ciclo de vida del software. Aplicando esto en ETB & BBVA apps como MiTEB, BBVA app, y servicios backend.\n\nCon título profesional en Ingeniería Electrónica de la Universidad Sergio Arboleda, Bogotá (Colombia), certificación AWS Cloud practitioner y AWS Developer Associate en camino, por último pero no menos importante Inglés C1.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -373,7 +373,7 @@
         "position": "Software Engineer",
         "startDate": "2021-06-01",
         "endDate": "2021-11-01",
-        "summary": "Desarrollo de software embebido para una empresa de nueva creación, se centran en el laboratorio virtual ingeniero electrónico, una solución para los estudiantes que necesitan componentes electrónicos de prueba real, un entorno en línea diseñado con la realidad virtual y placas phidget.",
+        "summary": "Desarrollo de software embebido para una start up, se centran en un laboratorio con realidad aumentada para ingenieros electrónicos, una solución para los estudiantes que necesitan probar componentes electrónicos poco comunes para laboratorios, un entorno en línea diseñado con realidad virtual y placas phidget.",
         "highlights": [
           "Started the company"
         ]
@@ -518,6 +518,13 @@
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
         ]
       },
+      {
+        "name": "Astro",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
       
       {
         "name": "Git",
@@ -528,6 +535,13 @@
       },
       {
         "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "GitHub Actions",
         "level": "Avanzado",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Git"
