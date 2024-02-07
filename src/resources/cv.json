@@ -5,6 +5,7 @@
       "image": "./Sergio_photo_op.webp",
       "email": "sergio.rod.perez@outlook.es",
       "phone": "+57 3163215583",
+      "telegram": "https://t.me/Seandrod",
       "url": "https://midu.dev",
       "summary": "Hi my name is Sergio, Electronic Engineer, I have 2+ year of experience in BackEnd microservices, frontend, MVC and embedded development. Currently, involved improving my knowledge cloud services architecture for better performance in client solutions. I work on different integration technologies, tools and frameworks like Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem among others. In process to expertises in Cloud arquitecture and agile methodologies.\n\nStrong knowledge of DevOps practices and software life cycle. Applying this in ETB & BBVA apps like MiTEB, BBVA app, and backend services.\n\nWith a professional degree in Electronic engineer from Sergio Arboleda University, Bogotá (Colombia), AWS Cloud practitioner certification and AWS Developer Associate incoming, last but no less important English C1.",
       "location": {
@@ -23,8 +24,8 @@
         },
         {
           "network": "GitHub",
-          "username": "midudev",
-          "url": "https://github.com/midudev",
+          "username": "Sergiorodp",
+          "url": "https://github.com/Sergiorodp",
           "show" :  true
         }
       ]

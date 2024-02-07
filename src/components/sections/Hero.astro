@@ -8,7 +8,7 @@ import Subtitle from "@app/components/SubTitle.astro"
 import ThemeIcon from "@app/components/icons/ThemeIcon.astro";
 import PrintIcon from "@app/components/icons/PrintIcon.astro";
 
-const {name, label, image, location, profiles, phone, email} = basics
+const {name, label, image, location, profiles, telegram, email} = basics
 
 const ICONS : Record<string, any> = {
     'GitHub': '🐙',
@@ -35,8 +35,8 @@ const ICONS : Record<string, any> = {
                             )
                     }
                     {
-                        phone && (
-                        <a href={`tel:${phone}`} title={`call ${name} at ${phone}`} target="_blank" rel="noopener noreferrer">📱</a>
+                        telegram && (
+                        <a href={telegram} title={`telegram from ${name}`} target="_blank" rel="noopener noreferrer">📱</a>
                         )
                     }
                     {
@@ -110,11 +110,11 @@ const ICONS : Record<string, any> = {
 
     footer .icons{
         display: flex;
-        justify-content: center;
         padding: .5rem 0;
         width: 120px;
-        gap: 4px;
         justify-content: space-between;
+        font-size: 1.3rem;
+        gap: 10px;
 
         a{
             justify-content: center;
@@ -156,6 +156,10 @@ const ICONS : Record<string, any> = {
             object-fit: cover;
             width: 125px;
             border-radius: 10px;
+        }
+
+        footer .icons{
+            gap: 1vw;
         }
     }
 
