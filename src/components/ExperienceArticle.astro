@@ -21,7 +21,7 @@ const {name, position, startDate, endDate, summary} = Astro.props;
     }
 
     article{
-        margin-bottom: .5rem;
+        margin-bottom: 1rem;
     }
 
     span{
@@ -53,6 +53,12 @@ const {name, position, startDate, endDate, summary} = Astro.props;
                 color: rgb(220, 219, 219);
             }
         }
+
+    @media only screen and (max-width: 600px){
+        span{
+            font-size: .9rem;
+        }
+    }
 
     @media print{
         header{
