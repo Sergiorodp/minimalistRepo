@@ -7,7 +7,7 @@
     "devHost": "astro dev --host",
     "disableTool": "astro preferences disable devToolbar",
     "start": "astro dev",
-    "build": "npm i --omit=dev && astro check && astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
