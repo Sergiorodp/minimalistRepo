@@ -14,15 +14,18 @@ const t = useTranslations(lang)
 const paraphs = summary.split('\n\n')
 ---
 
-<Section title="About me" hoverColor="blue">
-    {
-        paraphs.map(paraph => {
-            return(
-                <p>{paraph}</p>
-                <br>
-            )
-        })
-    }
+<Section title={t('section.about')} hoverColor="blue">
+    <div>
+        {
+            paraphs.map(paraph => {
+                return(
+                    <p>{paraph}</p>
+                    <br/>
+                )
+            })
+        }
+    </div>
+    
 </Section>
 
 <style>
