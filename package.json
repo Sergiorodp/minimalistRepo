@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
+    "devHost": "astro dev --host",
     "disableTool": "astro preferences disable devToolbar",
     "start": "astro dev",
-    "build": "pnpm i && astro check && astro build",
+    "build": "astro check && astro build",
     "check": "astro check",
     "preview": "astro preview",
     "astro": "astro"

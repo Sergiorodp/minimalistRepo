@@ -10,8 +10,24 @@ const cv = (lang === 'es') ? es : en
 const { summary } = cv.basics
 
 const t = useTranslations(lang)
+
+const paraphs = summary.split('\n\n')
 ---
 
-<Section title={t('section.about')} hoverColor="blue">
-    <pre>{summary}</pre>
+<Section title="About me" hoverColor="blue">
+    {
+        paraphs.map(paraph => {
+            return(
+                <p>{paraph}</p>
+                <br>
+            )
+        })
+    }
 </Section>
+
+<style>
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+</style>
