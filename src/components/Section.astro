@@ -1,6 +1,7 @@
 ---
  import Title from "@app/components/Title.astro"
- const { title: title, hoverColor } = Astro.props
+ const { title: title, hoverColor, hideSectionOnPrint = false } = Astro.props
+ const sectionDisplay = hideSectionOnPrint ? 'none' : 'block'
 ---
 
 <section>
@@ -9,11 +10,18 @@
 </section>
 
 <style
-    define:vars={{hoverColor}}
+    define:vars={{hoverColor, sectionDisplay}}
 >
     section{
         max-width: 700px;
         margin: 0 auto 2.5rem;
         --pq-title-hover-color: var(--hoverColor);
     }
+
+    @media print{
+        section{
+            display: var(--sectionDisplay, 'block') !important;
+        }
+    }
+
 </style>

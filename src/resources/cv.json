@@ -107,10 +107,24 @@
       "summary": "There is no spoon."
     }],
     "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2023-03-07",
+      "issuer": "AWS",
+      "summary": "",
+      "url": "https://certificate.com",
+      "skill": {
+        "name" : "AWS"
+      }
+    },
+    {
+      "name": "NodeJs: Build The Complete E-Commerce Web API [2021]",
+      "date": "2023-03-07",
+      "issuer": "Udemy",
+      "summary": "",
+      "url": "https://certificate.com",
+      "skill": {
+        "name" : "Node.js"
+      }
     }],
     "publications": [{
       "name": "Publication",
@@ -122,6 +136,8 @@
     "skills": [
       {
         "name": "AWS",
+        "color" : "#F95B08",
+        "darkColor" : "#FFB608",
         "level": "Master",
         "keywords": [
           "Desarrollo Web", "Frontend"
@@ -130,6 +146,8 @@
       {
         "name": "Docker",
         "level": "Avanzado",
+        "color" : "#2f58a3",
+        "darkColor" : "#2B99EE",
         "keywords": [
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
         ]
@@ -137,6 +155,8 @@
       {
         "name": "Node.js",
         "level": "Master",
+        "color" : "#448a43",
+        "darkColor" : "#70C14D",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
@@ -144,18 +164,24 @@
       {
         "name": ".NET",
         "level": "Master",
+        "color" : "#613494",
+        "darkColor" : "#5632d5",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
       },{
         "name": "mongoDB",
         "level": "Master",
+        "color" : "#082530",
+        "darkColor" : "#0cb95a",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
       },
       {
         "name": "PostgreSQL",
+        "color" : "#376696",
+        "darkColor" : "#396C94",
         "level": "Avanzado",
         "keywords": [
           "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
@@ -164,6 +190,8 @@
       {
         "name": "HTML",
         "level": "Master",
+        "color" : "#CF2C27",
+        "darkColor" : "#FB0F06",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
@@ -171,6 +199,8 @@
       {
         "name": "CSS",
         "level": "Master",
+        "color" : "#1c76b8",
+        "darkColor" : "#39acdd",
         "keywords": [
           "Desarrollo Web", "Frontend", "Diseño Responsive"
         ]
@@ -178,12 +208,17 @@
       {
         "name": "JavaScript",
         "level": "Master",
+        "color" : "#feb250",
+        "darkColor" : "#fed650",
+        "fontColorDark": "#011D29",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "Fullstack"
         ]
       },
       {
         "name": "TypeScript",
+        "color" : "#087ece",
+        "darkColor" : "#087ece",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
@@ -191,6 +226,9 @@
       },
       {
         "name": "Next.js",
+        "color" : "#080808",
+        "darkColor" : "#ffffff",
+        "fontColorDark": "#080808",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
@@ -199,6 +237,8 @@
       {
         "name": "React",
         "level": "Avanzado",
+        "color" : "#0015FA",
+        "darkColor" : "#0015FA",
         "keywords": [
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
         ]
@@ -207,20 +247,17 @@
       {
         "name": "Git",
         "level": "Avanzado",
+        "color" : "#E600FA",
+        "darkColor" : "#E600FA",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente"
         ]
       },
       {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
         "name": "SCRUM",
         "level": "Avanzado",
+        "color" : "#00473C",
+        "darkColor" : "#00D8B7",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente"
         ]

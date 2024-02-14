@@ -1,6 +1,10 @@
----
+function formatDayToArticleStyle(date : string){
+    const dateSplitted = date?.split('-')
+    return `${dateSplitted[0]}/${MONTHS[dateSplitted[1]]}`
+}
+
 export function obtenerFechaActualISO() : string {
-    const fecha = Date({}).split(' ');
+    const fecha = Date().split(' ');
 
     const dia = fecha[2];
     const mes = fecha[1];
@@ -31,4 +35,7 @@ export const MONTHNUM = Object.entries(MONTHS).reduce((acc : Record<string, stri
     acc[value] = key;
     return acc;
 }, {});
----
+
+export {
+    formatDayToArticleStyle
+}

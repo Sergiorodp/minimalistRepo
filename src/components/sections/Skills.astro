@@ -6,12 +6,16 @@ import CV from "@cv";
 const {skills} = CV
 ---
 
-<Section title="Skills" hoverColor="green">
+<Section title="Skills" hoverColor="green" hideSectionOnPrint = {true}>
     <div class="skillContainer">
         {
-            skills.map(({name})=>{
+            skills.map(({name, color, darkColor, fontColorDark})=>{
                 return(
-                <Skill>
+                <Skill
+                    lightColor={color}
+                    darkColor={darkColor}
+                    fontColorDark={fontColorDark || ''} 
+                >
                     {name}
                 </Skill>
                 )

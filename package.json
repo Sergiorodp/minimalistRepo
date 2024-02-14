@@ -3,6 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
+    "reinstall": "rm -rf ./node_modules && rm pnpm-lock.yaml && pnpm i",
     "dev": "astro dev",
     "devHost": "astro dev --host",
     "disableTool": "astro preferences disable devToolbar",

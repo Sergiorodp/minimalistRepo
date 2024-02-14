@@ -1,23 +1,38 @@
-<div class="skill">
-    <slot/>
-</div>
+---
+interface Props{
+    lightColor?: string,
+    darkColor?: string,
+    fontColorDark?:string,
+}
 
-<style lang="scss">
+const { lightColor, darkColor='', fontColorDark = ''} = Astro.props
+---
+
+<span class="skill">
+    <slot/>
+</span>
+
+<style lang="scss" define:vars={{ lightColor, darkColor, fontColorDark }}>
     .skill{
-        font-size: .8rem;
+        font-size: .7rem;
         border-radius: 5px;
-        padding: .3rem .5rem;
+        padding: .2rem .5rem;
         color: white;
+        max-height: 22px;
         font-weight: 600;
-        background: rgb(71, 71, 71);
+        background: var(--lightColor, rgb(71, 71, 71));
     }
 
     :global(.dark){
         .skill{
             background: #1F6FEB;
+            color: var(--fontColorDark, white);
+            background: var(--darkColor, #1F6FEB);
         }
 
         .skill:hover{
+            cursor: default;
+            color: aliceblue;
             background: rgb(58, 58, 58);
         }
     } 
@@ -28,7 +43,7 @@
 
     @media print{
         .skill{
-            color: #cecece !important;
+            display: none !important;
         }
     }
 </style>
