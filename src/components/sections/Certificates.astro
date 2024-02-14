@@ -1,17 +1,20 @@
 ---
 import Section from "../Section.astro";
 import CertificatesArticle from "@app/components/CertificatesArticle.astro";
+
 // json cv
 import { certificates } from "@app/resources/cv.json";
 ---
 
 <Section title="Certifications">
     {
-        certificates.map( ({name, summary, date}) => {
+        certificates.map( ({name, issuer, date, skill}) => {
             return(
                 <CertificatesArticle
                     name={name}
-                    summary={summary}
+                    issuer={issuer}
+                    date={date}
+                    skill={skill.name}
                 >
                 </CertificatesArticle>
             )
