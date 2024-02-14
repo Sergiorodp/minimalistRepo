@@ -1,0 +1,50 @@
+---
+interface Props {
+    name: String,
+    summary : String
+}
+const {name, summary} = Astro.props;
+---
+
+<article>
+    <header>
+        <div>
+            <h3>{name}</h3>
+        </div>
+    </header>
+    <p>{summary}</p>
+</article>
+
+<style lang="scss">
+     article{
+        margin-bottom: 1rem;
+    }
+
+    h3{
+        color: #454545;
+    }
+    p{
+        font-size: .8rem;
+    }
+
+    :global(.dark){
+            h3{
+                color: rgb(220, 219, 219);
+            }
+        }
+        
+    @media print{
+
+        article{
+            margin-bottom: 1rem;
+        }
+
+        h3{
+            color: #353535 !important;
+        }
+
+        p{
+            font-size: .8rem;
+        }
+    }
+</style>

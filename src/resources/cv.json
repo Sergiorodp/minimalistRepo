@@ -107,9 +107,10 @@
       "summary": "There is no spoon."
     }],
     "certificates": [{
-      "name": "Certificate",
+      "name": "AWS Certified Cloud Practitioner",
       "date": "2021-11-07",
       "issuer": "Company",
+      "summary": "",
       "url": "https://certificate.com"
     }],
     "publications": [{
