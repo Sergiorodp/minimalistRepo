@@ -2,7 +2,9 @@
 import Date from './Date.astro';
 import Skill from './Skill.astro';
 
-import { skills } from "@app/resources/cv.json";
+import { en } from "@app/resources/cv.json";
+
+const { skills } = en
 
 interface Props {
     name: string,
