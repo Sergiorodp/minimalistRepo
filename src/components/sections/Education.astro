@@ -3,12 +3,15 @@ import Section from "../Section.astro";
 import Article from "@app/components/ExperienceArticle.astro";
 import  CV from "@cv";
 import { obtenerFechaActualISO, MONTHS } from "@app/utils/DateFormat";
+// i18n
+import { useTranslations } from '@app/i18n/utils'
 
 const { education } = CV
+const t = useTranslations('en')
 
 ---
 
-<Section title="Education" hoverColor="red">
+<Section title={t('section.education')} hoverColor="red">
     <ul>
         {
             education.map(({area, summary, startDate, endDate, institution}) => {
