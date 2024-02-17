@@ -1,0 +1,25 @@
+---
+import { formatDayToArticleStyle } from "@app/utils/DateFormat";
+interface Props{
+    date: string,
+}
+
+const { date } = Astro.props
+---
+
+<span>{`${formatDayToArticleStyle(date)}`}</span>
+
+<style lang="scss">
+    span{
+        padding: 0px 1rem 0px 0px;
+        display: flex;
+        justify-content: end;
+        color: #454545;
+    }
+
+    :global(.dark){
+        span{
+                color: rgb(220, 219, 219);
+            }
+    }
+</style>
