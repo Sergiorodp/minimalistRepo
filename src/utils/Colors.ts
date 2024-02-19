@@ -1,3 +1,10 @@
+export const FONT_COLORS = {
+    subtitle: {
+        dark: '#F1CC4C',
+        light: '#e89222'
+    }
+}
+
 /**
  * use to calc font color from the background
  * @param background string
@@ -18,3 +25,4 @@ export function getFontColor(background : string) {
     // Decide si el color de letra debe ser blanco o negro
     return brightes > 128 ? '#000000' : '#ffffff';
 }
+

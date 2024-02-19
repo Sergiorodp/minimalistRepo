@@ -138,6 +138,7 @@
         "name": "AWS",
         "color" : "#F95B08",
         "darkColor" : "#FFB608",
+        "iconKey":"aws",
         "level": "Master",
         "keywords": [
           "Desarrollo Web", "Frontend"
@@ -154,6 +155,7 @@
       },
       {
         "name": "Node.js",
+        "iconKey": "nodejs",
         "level": "Master",
         "color" : "#448a43",
         "darkColor" : "#70C14D",
@@ -208,6 +210,7 @@
       {
         "name": "JavaScript",
         "level": "Master",
+        "iconKey": "javascript",
         "color" : "#feb250",
         "darkColor" : "#fed650",
         "fontColorDark": "#011D29",
@@ -217,6 +220,7 @@
       },
       {
         "name": "TypeScript",
+        "iconKey":"typescript",
         "color" : "#087ece",
         "darkColor" : "#087ece",
         "level": "Avanzado",

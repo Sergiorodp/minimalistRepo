@@ -9,15 +9,14 @@ const {skills} = CV
 <Section title="Skills" hoverColor="green" hideSectionOnPrint = {true}>
     <div class="skillContainer">
         {
-            skills.map(({name, color, darkColor, fontColorDark})=>{
-                return(
-                <Skill
-                    lightColor={color}
-                    darkColor={darkColor}
-                >
-                    {name}
-                </Skill>
-                )
+            skills.map(({iconKey = ''})=>{
+                if(iconKey !== ''){
+                    return(
+                        <Skill icon={iconKey}>
+                        </Skill>
+                    )
+                }
+                return 
             })
         }
     </div>
@@ -28,6 +27,6 @@ const {skills} = CV
     .skillContainer{
         display: flex;
         flex-wrap: wrap;
-        gap: 5px;
+        gap: 10px;
     }
 </style>
