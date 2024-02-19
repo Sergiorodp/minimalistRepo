@@ -32,11 +32,11 @@ const {name, position, startDate, endDate, summary} = Astro.props;
     }
 
     h3{
-        color: #454545;
+        color: #2c2c2c;
     }
 
     h4{
-        color: #747474;
+        color: #e89222;
         font-size: .9rem;
     }
 
@@ -46,9 +46,13 @@ const {name, position, startDate, endDate, summary} = Astro.props;
 
     :global(.dark){
             h3{
-                color: rgb(220, 219, 219);
+                color: rgb(255, 255, 255);
             }
-
+            
+            h4{
+                color: #FED650;
+                font-size: .9rem;
+            }
             span{
                 color: rgb(220, 219, 219);
             }
@@ -76,11 +80,11 @@ const {name, position, startDate, endDate, summary} = Astro.props;
         }
 
         h3{
-            color: #353535 !important;
+            color: #2c2c2c !important;
         }
 
         h4{
-            color: #b4b4b4 !important;
+            color: #949494 !important;
         }
 
         p{
