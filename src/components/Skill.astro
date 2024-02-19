@@ -1,23 +1,26 @@
 ---
+import { getFontColor } from "@app/utils/Colors";
 interface Props{
     lightColor?: string,
     darkColor?: string,
-    fontColorDark?:string,
 }
 
-const { lightColor, darkColor='', fontColorDark = ''} = Astro.props
+const { lightColor = '', darkColor=''} = Astro.props
+
+const fontColor = getFontColor(lightColor)
+const fontColorDark = getFontColor(darkColor)
 ---
 
 <span class="skill">
     <slot/>
 </span>
 
-<style lang="scss" define:vars={{ lightColor, darkColor, fontColorDark }}>
+<style lang="scss" define:vars={{ lightColor, darkColor, fontColor, fontColorDark }}>
     .skill{
         font-size: .7rem;
         border-radius: 5px;
         padding: .2rem .5rem;
-        color: white;
+        color: var(--fontColor, white);
         max-height: 22px;
         font-weight: 600;
         background: var(--lightColor, rgb(71, 71, 71));
