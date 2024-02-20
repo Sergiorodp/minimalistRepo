@@ -137,7 +137,8 @@
       {
         "name": "AWS",
         "color" : "#F95B08",
-        "darkColor" : "#FFB608",
+        "backgroundColor" : "#FFFFFF",
+        "iconKey":"aws",
         "level": "Master",
         "keywords": [
           "Desarrollo Web", "Frontend"
@@ -146,6 +147,7 @@
       {
         "name": "Docker",
         "level": "Avanzado",
+        "iconKey":"docker",
         "color" : "#2f58a3",
         "darkColor" : "#2B99EE",
         "keywords": [
@@ -154,6 +156,7 @@
       },
       {
         "name": "Node.js",
+        "iconKey": "nodejs",
         "level": "Master",
         "color" : "#448a43",
         "darkColor" : "#70C14D",
@@ -172,6 +175,7 @@
       },{
         "name": "mongoDB",
         "level": "Master",
+        "iconKey":"mongodb",
         "color" : "#082530",
         "darkColor" : "#0cb95a",
         "keywords": [
@@ -180,6 +184,7 @@
       },
       {
         "name": "PostgreSQL",
+        "iconKey":"postgresql",
         "color" : "#376696",
         "darkColor" : "#396C94",
         "level": "Avanzado",
@@ -190,6 +195,7 @@
       {
         "name": "HTML",
         "level": "Master",
+        "iconKey":"html5",
         "color" : "#CF2C27",
         "darkColor" : "#FB0F06",
         "keywords": [
@@ -199,6 +205,7 @@
       {
         "name": "CSS",
         "level": "Master",
+        "iconKey":"css",
         "color" : "#1c76b8",
         "darkColor" : "#39acdd",
         "keywords": [
@@ -208,6 +215,7 @@
       {
         "name": "JavaScript",
         "level": "Master",
+        "iconKey": "javascript",
         "color" : "#feb250",
         "darkColor" : "#fed650",
         "fontColorDark": "#011D29",
@@ -217,6 +225,7 @@
       },
       {
         "name": "TypeScript",
+        "iconKey":"typescript",
         "color" : "#087ece",
         "darkColor" : "#087ece",
         "level": "Avanzado",
@@ -226,6 +235,7 @@
       },
       {
         "name": "Next.js",
+        "iconKey":"nextjs",
         "color" : "#080808",
         "darkColor" : "#ffffff",
         "fontColorDark": "#080808",
@@ -236,6 +246,7 @@
       },
       {
         "name": "React",
+        "iconKey":"react",
         "level": "Avanzado",
         "color" : "#0015FA",
         "darkColor" : "#0015FA",
@@ -247,6 +258,17 @@
       {
         "name": "Git",
         "level": "Avanzado",
+        "iconKey":"git",
+        "color" : "#E600FA",
+        "darkColor" : "#E600FA",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "iconKey":"github",
         "color" : "#E600FA",
         "darkColor" : "#E600FA",
         "keywords": [
