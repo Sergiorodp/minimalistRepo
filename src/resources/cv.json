@@ -147,6 +147,7 @@
       {
         "name": "Docker",
         "level": "Avanzado",
+        "iconKey":"docker",
         "color" : "#2f58a3",
         "darkColor" : "#2B99EE",
         "keywords": [
@@ -174,6 +175,7 @@
       },{
         "name": "mongoDB",
         "level": "Master",
+        "iconKey":"mongodb",
         "color" : "#082530",
         "darkColor" : "#0cb95a",
         "keywords": [
@@ -182,6 +184,7 @@
       },
       {
         "name": "PostgreSQL",
+        "iconKey":"postgresql",
         "color" : "#376696",
         "darkColor" : "#396C94",
         "level": "Avanzado",
@@ -192,6 +195,7 @@
       {
         "name": "HTML",
         "level": "Master",
+        "iconKey":"html5",
         "color" : "#CF2C27",
         "darkColor" : "#FB0F06",
         "keywords": [
@@ -201,6 +205,7 @@
       {
         "name": "CSS",
         "level": "Master",
+        "iconKey":"css",
         "color" : "#1c76b8",
         "darkColor" : "#39acdd",
         "keywords": [
@@ -230,6 +235,7 @@
       },
       {
         "name": "Next.js",
+        "iconKey":"nextjs",
         "color" : "#080808",
         "darkColor" : "#ffffff",
         "fontColorDark": "#080808",
@@ -240,6 +246,7 @@
       },
       {
         "name": "React",
+        "iconKey":"react",
         "level": "Avanzado",
         "color" : "#0015FA",
         "darkColor" : "#0015FA",
@@ -251,6 +258,17 @@
       {
         "name": "Git",
         "level": "Avanzado",
+        "iconKey":"git",
+        "color" : "#E600FA",
+        "darkColor" : "#E600FA",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "iconKey":"github",
         "color" : "#E600FA",
         "darkColor" : "#E600FA",
         "keywords": [
