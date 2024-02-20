@@ -1,4 +1,5 @@
 ---
+import { FONT_COLORS } from "@app/utils/Colors";
 const {name, position, startDate, endDate, summary} = Astro.props;
 ---
 
@@ -13,7 +14,7 @@ const {name, position, startDate, endDate, summary} = Astro.props;
     <p>{summary}</p>
 </article>
 
-<style lang="scss">
+<style lang="scss" define:vars={{lightSub: FONT_COLORS.subtitle.light, darkSub: FONT_COLORS.subtitle.dark}}>
     header{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -36,7 +37,7 @@ const {name, position, startDate, endDate, summary} = Astro.props;
     }
 
     h4{
-        color: #e89222;
+        color: var(--lightSub);
         font-size: .9rem;
     }
 
@@ -50,7 +51,7 @@ const {name, position, startDate, endDate, summary} = Astro.props;
             }
             
             h4{
-                color: #FED650;
+                color: var(--darkSub);
                 font-size: .9rem;
             }
             span{

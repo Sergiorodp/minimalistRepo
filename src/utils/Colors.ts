@@ -1,7 +1,7 @@
 export const FONT_COLORS = {
     subtitle: {
         dark: '#F1CC4C',
-        light: '#e89222'
+        light: '#071bbd'
     }
 }
 
