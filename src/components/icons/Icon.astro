@@ -1,10 +1,22 @@
 ---
 export interface Props {
-  icon: string;
+  icon: string
+  width?: string
+  height?: string
+  background?: string
 }
 
-const { icon = 'default' } = Astro.props as Props;
+const { icon = 'default', width = '20px', height = '20px', background = ''} = Astro.props as Props;
 const { default: innerHTML } = await import(`../../resources/${icon}.svg?raw`);
 ---
+<div set:html={innerHTML}></div>
 
-<Fragment set:html={innerHTML} />
+<style lang="scss" define:vars={{width, height, background}}>
+  div{
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    width: var(--width);
+    height: var(--height);
+  }
+</style>

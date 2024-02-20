@@ -27,6 +27,7 @@ const certSkill = skills.filter(s => s.name === skill)[0]
         skill && 
         <Skill 
             icon={certSkill.iconKey ?? ''}
+            background={ certSkill.backgroundColor}
         >
         </Skill>
     }

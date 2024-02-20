@@ -137,7 +137,7 @@
       {
         "name": "AWS",
         "color" : "#F95B08",
-        "darkColor" : "#FFB608",
+        "backgroundColor" : "#FFFFFF",
         "iconKey":"aws",
         "level": "Master",
         "keywords": [

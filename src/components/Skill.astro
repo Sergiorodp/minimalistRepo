@@ -3,21 +3,22 @@ import { getFontColor } from "@app/utils/Colors";
 import SergiIcon from "@app/components/icons/Icon.astro";
 interface Props{
     icon: string | undefined,
+    width?: string,
+    height?: string,
+    background?: string
 }
 
-const { icon = 'default' } = Astro.props
+const { icon = 'default', width, height, background = '' } = Astro.props
 ---
 
-<span class="skill">
-    <SergiIcon icon={icon}>
+<div class="skill">
+    <SergiIcon icon={icon} width={width}, height={height} background={background}>
     </SergiIcon>
-</span>
+</div>
 
 <style lang="scss">
     .skill{
         border-radius: 10px;
-        max-height: 22px;
-        font-weight: 600;
     }
 
     @media print{
