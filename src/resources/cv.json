@@ -1,6 +1,6 @@
 {
     "basics": {
-      "name": "Sergio Andres Rodriguez Perez",
+      "name": "Sergio Andrés Rodríguez Pérez",
       "label": "Electronic Engineer & Developer",
       "image": "./Sergio_photo_op.webp",
       "email": "sergio.rod.perez@outlook.es",
@@ -40,7 +40,8 @@
         "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit) and Lit-Html, Monitoring with IBM tealeaf, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable user experience and design.",
         "highlights": [
           "Started the company"
-        ]
+        ],
+        "skills": ["javascript", "nodejs", "css", "git", "html", "aws"]
       },
       {
         "name": "Accenture with ETB",
@@ -51,7 +52,8 @@
         "summary": "Developer in Back services, front-end design and database management for different softwares used by ETB, such as SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SRUM, and CI/CD management for code deploy and quality control.",
         "highlights": [
           "Started the company"
-        ]
+        ],
+        "skills": ["mongodb", "nodejs", "azure", "react","nextjs", "html", "css"]
       },
       {
         "name": "Solutions",
@@ -61,7 +63,8 @@
         "summary": "Develop embebed software for an start up company, focus in virtual electronic engineer lab, a solution for student that need real testing electronic components, an online environment designed with virtual reality and phidget boards.",
         "highlights": [
           "Started the company"
-        ]
+        ],
+        "skills": ["c++", "nodejs", "aws", "javascript", "html", "css", "java", "python"]
       }
     ],
     "volunteer": [{
@@ -86,7 +89,8 @@
       "score": "4.4",
       "courses": [
         "DB1101 - Basic SQL"
-      ]
+      ],
+      "skiills": ["docker"]
     },{
       "institution": "Sergio Arboleda University",
       "url": "https://www.uoc.edu/portal/es/index.html",
@@ -112,6 +116,7 @@
       "issuer": "AWS",
       "summary": "",
       "url": "https://certificate.com",
+      "skills": ["aws"],
       "skill": {
         "name" : "AWS"
       }
@@ -122,6 +127,7 @@
       "issuer": "Udemy",
       "summary": "",
       "url": "https://certificate.com",
+      "skills": ["nodejs","mongodb", "react"],
       "skill": {
         "name" : "Node.js"
       }
