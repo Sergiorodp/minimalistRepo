@@ -1,0 +1,33 @@
+---
+import Skill from "@app/components/Skill.astro";
+import { type ISkill } from '@app/types/skillTypes'
+
+interface Props {
+    skills: ISkill[]
+}
+
+const { skills } = Astro.props
+---
+
+<div class="skillContainer">
+    {
+        skills.map(({iconKey = '', backgroundColor})=>{
+            if(iconKey !== ''){
+                return(
+                    <Skill icon={iconKey} background={backgroundColor} width="17px" height="17px">
+                    </Skill>
+                )
+            }
+            return 
+        })
+    }
+</div>
+
+<style lang="scss">
+    .skillContainer{
+        margin-top: .5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+</style>

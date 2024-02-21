@@ -1,18 +1,23 @@
 ---
 import Date from './Date.astro';
 import Skill from './Skill.astro';
+import SkillsGrid from "@app/components/SkillsGrid.astro";
 
-import { skills } from "@app/resources/cv.json";
+import { skills as cvSkills } from "@app/resources/cv.json";
 
 interface Props {
     name: string,
     date: string,
     issuer?: string,
-    skill?: string,
+    skills?: string[],
 }
-const {name, date, issuer, skill} = Astro.props;
+const {name, date, issuer, skills} = Astro.props;
 
-const certSkill = skills.filter(s => s.name === skill)[0]
+const expSkills = skills?.map((skill : string) => {
+        return cvSkills.filter( cvSkill => {
+            return cvSkill?.iconKey?.includes(skill)
+        })[0] ?? {}
+    }) ?? []
 ---
 
 <article>
@@ -24,12 +29,8 @@ const certSkill = skills.filter(s => s.name === skill)[0]
     </header>
     <p>Issued by {issuer}</p>
     {
-        skill && 
-        <Skill 
-            icon={certSkill.iconKey ?? ''}
-            background={ certSkill.backgroundColor}
-        >
-        </Skill>
+        <SkillsGrid skills={expSkills}>
+        </SkillsGrid>
     }
 </article>
 

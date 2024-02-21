@@ -1,6 +1,17 @@
 ---
 import { FONT_COLORS } from "@app/utils/Colors";
-const {name, position, startDate, endDate, summary} = Astro.props;
+import SkillsGrid from "@app/components/SkillsGrid.astro";
+
+import { skills as cvSkills } from "@cv";
+import Skill from "./Skill.astro";
+
+const {name, position, startDate, endDate, summary, skills} = Astro.props;
+
+const expSkills = skills?.map((skill : string) => {
+        return cvSkills.filter( cvSkill => {
+            return cvSkill?.iconKey?.includes(skill)
+        })[0] ?? {}
+    }) ?? []
 ---
 
 <article>
@@ -12,6 +23,8 @@ const {name, position, startDate, endDate, summary} = Astro.props;
         <span>{`${startDate} - ${endDate}`}</span>
     </header>
     <p>{summary}</p>
+    <SkillsGrid skills={expSkills}>
+    </SkillsGrid>
 </article>
 
 <style lang="scss" define:vars={{lightSub: FONT_COLORS.subtitle.light, darkSub: FONT_COLORS.subtitle.dark}}>

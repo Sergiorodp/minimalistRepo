@@ -8,7 +8,7 @@ import { MONTHS, obtenerFechaActualISO } from "@app/utils/DateFormat";
 <Section title="Experience" hoverColor="yellow">
     <ul>
         {
-            work.map(({name, position, startDate, endDate, summary}) => {
+            work.map(({name, position, startDate, endDate, summary, skills}) => {
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
@@ -21,6 +21,7 @@ import { MONTHS, obtenerFechaActualISO } from "@app/utils/DateFormat";
                             startDate={startDate}
                             endDate={endDate}
                             summary={summary}
+                            skills={skills}
                         >
                         </Article>
                     </li>
