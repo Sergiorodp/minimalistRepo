@@ -12,13 +12,13 @@ const t = useTranslations('en')
 
 <Section title={t('section.certificates')}>
     {
-        certificates.map( ({name, issuer, date, skill}) => {
+        certificates.map( ({name, issuer, date, skills}) => {
             return(
                 <CertificatesArticle
                     name={name}
                     issuer={issuer}
                     date={date}
-                    skill={skill.name}
+                    skills={skills}
                 >
                 </CertificatesArticle>
             )
