@@ -4,9 +4,13 @@ import CertificatesArticle from "@app/components/CertificatesArticle.astro";
 
 // json cv
 import { certificates } from "@app/resources/cv.json";
+// i18n
+import { useTranslations } from '@app/utils/i18n'
+
+const t = useTranslations('en')
 ---
 
-<Section title="Certificates">
+<Section title={t('section.certificates')}>
     {
         certificates.map( ({name, issuer, date, skill}) => {
             return(

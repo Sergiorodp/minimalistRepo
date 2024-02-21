@@ -28,11 +28,9 @@ const certSkill = skills.filter(s => s.name === skill)[0]
     {
         skill && 
         <Skill 
-            lightColor={certSkill.color} 
-            fontColorDark={certSkill?.fontColorDark || ''} 
-            darkColor={certSkill.darkColor}
+            icon={certSkill.iconKey ?? ''}
+            background={ certSkill.backgroundColor}
         >
-            {skill}
         </Skill>
     }
 </article>

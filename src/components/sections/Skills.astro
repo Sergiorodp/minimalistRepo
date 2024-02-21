@@ -13,16 +13,14 @@ const t = useTranslations(lang)
 <Section title={t('section.skills')} hoverColor="green">
     <div class="skillContainer">
         {
-            skills.map(({name, color, darkColor, fontColorDark})=>{
-                return(
-                <Skill
-                    lightColor={color}
-                    darkColor={darkColor}
-                    fontColorDark={fontColorDark || ''} 
-                >
-                    {name}
-                </Skill>
-                )
+            skills.map(({iconKey = '', backgroundColor})=>{
+                if(iconKey !== ''){
+                    return(
+                        <Skill icon={iconKey} background={backgroundColor} width="30px" height="30px">
+                        </Skill>
+                    )
+                }
+                return 
             })
         }
     </div>
@@ -33,6 +31,6 @@ const t = useTranslations(lang)
     .skillContainer{
         display: flex;
         flex-wrap: wrap;
-        gap: 5px;
+        gap: 20px;
     }
 </style>

@@ -8,10 +8,10 @@ import { useTranslations } from '@app/i18n/utils'
 const { lang } = Astro.props
 const cv = (lang === 'es') ? es : en
 const { summary } = cv.basics
-
-const t = useTranslations(lang)
+//i18
 
 const paraphs = summary.split('\n\n')
+const t = useTranslations('en')
 ---
 
 <Section title={t('section.about')} hoverColor="blue">
