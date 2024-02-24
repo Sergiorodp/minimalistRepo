@@ -7,6 +7,7 @@ interface Props {
 }
 
 const { skills } = Astro.props
+const areSkills = skills.length > 0 ? 'flex' : 'none'
 ---
 
 <div class="skillContainer">
@@ -23,11 +24,14 @@ const { skills } = Astro.props
     }
 </div>
 
-<style lang="scss">
+<style lang="scss" define:vars={{ areSkills: areSkills }}>
     .skillContainer{
         margin-top: .5rem;
-        display: flex;
         flex-wrap: wrap;
         gap: 15px;
+    }
+
+    .skillContainer{
+        display: var(--areSkills, 'flex');
     }
 </style>
