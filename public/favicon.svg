@@ -1,1 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.97 67.13"><defs><style>.cls-1{fill:#6e75f5;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M95.83,19.66,70.39.57a2.83,2.83,0,0,0-4.53,2.27V41a2.83,2.83,0,0,0,4.53,2.27L95.83,24.19A2.82,2.82,0,0,0,95.83,19.66Z"/><path class="cls-1" d="M79.34,53.1,66.55,62.52a2.55,2.55,0,0,0,1.51,4.61H93.64a2.55,2.55,0,0,0,1.51-4.61L82.36,53.1A2.55,2.55,0,0,0,79.34,53.1Z"/><path d="M51.16,67.13H3.35C1,67.13-.17,64.9,1.49,63.6L48.06,27c2.11-1.66,5.73-.49,5.73,1.86V65.06A2.4,2.4,0,0,1,51.16,67.13Z"/><path d="M2.86.34H54.92c2.55,0,3.83,2.42,2,3.84L6.23,44C3.93,45.82,0,44.54,0,42V2.59C0,1.35,1.28.34,2.86.34Z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="55.172729mm"
+   height="25.547279mm"
+   viewBox="0 0 55.172729 25.547279"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:export-bgcolor="#00000000">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-283.33585"
+       originy="-772.63251"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="LOGO2"
+     inkscape:groupmode="layer"
+     id="layer1-6"
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+     transform="translate(-75.073083,-114.50284)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.781281;stroke-opacity:1"
+       id="rect1-6"
+       width="54.190262"
+       height="9.9440794"
+       x="75.590057"
+       y="114.89349"
+       rx="0.13728671" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.734872;stroke-opacity:1"
+       id="rect2-4"
+       width="24.534782"
+       height="9.2125578"
+       x="75.440514"
+       y="130.41783"
+       rx="0.12651686"
+       inkscape:export-filename="Logov2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.655812;stroke-opacity:1"
+       id="rect3-8"
+       width="9.4791298"
+       height="9.2824917"
+       x="105.4837"
+       y="130.40419"
+       rx="0.099654332" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.657497;stroke-opacity:1"
+       id="rect4-3"
+       width="9.3985195"
+       height="9.3414488"
+       x="120.51855"
+       y="130.37993"
+       rx="0.099168815" />
+  </g>
+</svg>

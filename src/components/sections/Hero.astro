@@ -4,8 +4,6 @@ import { basics } from "@app/resources/cv.json";
 //components
 import Section from "../Section.astro";
 import Subtitle from "@app/components/SubTitle.astro"
-import ThemeIcon from "@app/components/icons/ThemeIcon.astro";
-import PrintIcon from "@app/components/icons/PrintIcon.astro";
 
 const {name, label, image, location, profiles, telegram, email} = basics
 
@@ -16,11 +14,6 @@ const ICONS : Record<string, any> = {
 ---
 
 <Section>
-    <div class="themeIcon">
-        <ThemeIcon label="Change theme aspect"></ThemeIcon>
-        <PrintIcon label="Print CV"></PrintIcon>
-        <span> ⬅️ Click here </span>
-    </div>
     <div class="hero-container">
         <div class="header-info">
             <h1 class="name">{name}</h1>
@@ -128,18 +121,6 @@ const ICONS : Record<string, any> = {
         }
     }
 
-    .themeIcon{
-        display: flex;
-        position: absolute;
-        align-items: center;
-        top: 0;
-        padding: 1rem 0 0 0;
-        cursor: pointer;
-
-        span{
-            margin-left: 1rem;
-        }
-    }
 
     @media only screen and (max-width: 600px){
         .hero-container{

@@ -1,0 +1,72 @@
+---
+interface Props {
+    width: string,
+    height: string
+}
+const { width = '20px', height = '20px' } = Astro.props
+---
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   viewBox="0 0 55.172737 25.54727"
+   version="1.1"
+   width={width}
+   height={height}
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     style="stroke-opacity:1"
+     transform="translate(-75.073076,-114.50286)">
+    <rect
+       style="stroke-width:0.781281;stroke-opacity:1"
+       id="rect1"
+       width="54.190262"
+       height="9.9440794"
+       x="75.590057"
+       y="114.89349"
+       rx="0.13728671" />
+    <rect
+       style="stroke-width:0.734872;stroke-opacity:1"
+       id="rect2"
+       width="24.534782"
+       height="9.2125578"
+       x="75.440514"
+       y="130.41783"
+       rx="0.12651686" />
+    <rect
+       style="stroke-width:0.655812;stroke-opacity:1"
+       id="rect3"
+       width="9.4791298"
+       height="9.2824917"
+       x="105.4837"
+       y="130.40419"
+       rx="0.099654332" />
+    <rect
+       style="stroke-width:0.657497;stroke-opacity:1"
+       id="rect4"
+       width="9.3985195"
+       height="9.3414488"
+       x="120.51855"
+       y="130.37993"
+       rx="0.099168815" />
+  </g>
+</svg>
+
+<style lang="scss">
+    svg{
+        fill: black;
+        stroke: black;
+    }
+
+    :global(.dark){
+        svg{
+        fill: white;
+        stroke: white;
+    }
+    }
+</style>
