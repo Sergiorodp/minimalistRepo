@@ -9,10 +9,10 @@ const {skills} = CV
 <Section title="Skills" hoverColor="green" hideSectionOnPrint = {true}>
     <div class="skillContainer">
         {
-            skills.map(({iconKey = '', backgroundColor})=>{
+            skills.map(({iconKey = ''})=>{
                 if(iconKey !== ''){
                     return(
-                        <Skill icon={iconKey} background={backgroundColor} width="30px" height="30px">
+                        <Skill icon={iconKey} width="30px" height="30px">
                         </Skill>
                     )
                 }
