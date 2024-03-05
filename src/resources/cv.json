@@ -41,7 +41,7 @@
         "highlights": [
           "Started the company"
         ],
-        "skills": ["javascript", "nodejs", "css", "git", "html", "aws"]
+        "skills": ["javascript", "html", "css", "lit", "nodejs","git","aws"]
       },
       {
         "name": "Accenture with ETB",
@@ -53,7 +53,7 @@
         "highlights": [
           "Started the company"
         ],
-        "skills": ["mongodb", "nodejs", "azure", "react","nextjs", "html", "css"]
+        "skills": ["mongodb","csharp", "nodejs", "azure", "react","nextjs", "html", "css","javascript"]
       },
       {
         "name": "Solutions",
@@ -142,8 +142,6 @@
     "skills": [
       {
         "name": "AWS",
-        "color" : "#F95B08",
-        "backgroundColor" : "#FFFFFF",
         "iconKey":"aws",
         "level": "Master",
         "keywords": [
@@ -151,11 +149,17 @@
         ]
       },
       {
+        "name": "azure",
+        "level": "medio",
+        "iconKey":"azure",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
         "name": "Docker",
         "level": "Avanzado",
         "iconKey":"docker",
-        "color" : "#2f58a3",
-        "darkColor" : "#2B99EE",
         "keywords": [
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
         ]
@@ -164,17 +168,21 @@
         "name": "Node.js",
         "iconKey": "nodejs",
         "level": "Master",
-        "color" : "#448a43",
-        "darkColor" : "#70C14D",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
       },
       {
+        "name": "C#",
+        "level": "Medio",
+        "iconKey":"csharp",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
         "name": ".NET",
         "level": "Master",
-        "color" : "#613494",
-        "darkColor" : "#5632d5",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
@@ -182,8 +190,6 @@
         "name": "mongoDB",
         "level": "Master",
         "iconKey":"mongodb",
-        "color" : "#082530",
-        "darkColor" : "#0cb95a",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
@@ -191,8 +197,6 @@
       {
         "name": "PostgreSQL",
         "iconKey":"postgresql",
-        "color" : "#376696",
-        "darkColor" : "#396C94",
         "level": "Avanzado",
         "keywords": [
           "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
@@ -202,8 +206,6 @@
         "name": "HTML",
         "level": "Master",
         "iconKey":"html5",
-        "color" : "#CF2C27",
-        "darkColor" : "#FB0F06",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
@@ -212,8 +214,6 @@
         "name": "CSS",
         "level": "Master",
         "iconKey":"css",
-        "color" : "#1c76b8",
-        "darkColor" : "#39acdd",
         "keywords": [
           "Desarrollo Web", "Frontend", "Diseño Responsive"
         ]
@@ -222,9 +222,6 @@
         "name": "JavaScript",
         "level": "Master",
         "iconKey": "javascript",
-        "color" : "#feb250",
-        "darkColor" : "#fed650",
-        "fontColorDark": "#011D29",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "Fullstack"
         ]
@@ -232,8 +229,6 @@
       {
         "name": "TypeScript",
         "iconKey":"typescript",
-        "color" : "#087ece",
-        "darkColor" : "#087ece",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
@@ -242,9 +237,6 @@
       {
         "name": "Next.js",
         "iconKey":"nextjs",
-        "color" : "#080808",
-        "darkColor" : "#ffffff",
-        "fontColorDark": "#080808",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
@@ -254,19 +246,14 @@
         "name": "React",
         "iconKey":"react",
         "level": "Avanzado",
-        "color" : "#0015FA",
-        "darkColor" : "#0015FA",
         "keywords": [
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
         ]
       },
-      
       {
         "name": "Git",
         "level": "Avanzado",
         "iconKey":"git",
-        "color" : "#E600FA",
-        "darkColor" : "#E600FA",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente"
         ]
@@ -275,8 +262,14 @@
         "name": "GitHub",
         "level": "Avanzado",
         "iconKey":"github",
-        "color" : "#E600FA",
-        "darkColor" : "#E600FA",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "lit",
+        "level": "medio",
+        "iconKey":"lit",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente"
         ]
@@ -284,8 +277,6 @@
       {
         "name": "SCRUM",
         "level": "Avanzado",
-        "color" : "#00473C",
-        "darkColor" : "#00D8B7",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente"
         ]
