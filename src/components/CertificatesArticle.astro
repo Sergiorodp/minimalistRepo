@@ -1,6 +1,6 @@
 ---
 import Date from './Date.astro';
-import Skill from './Skill.astro';
+import { FONT_COLORS } from "@app/utils/Colors";
 import SkillsGrid from "@app/components/SkillsGrid.astro";
 
 import { skills as cvSkills } from "@app/resources/cv.json";
@@ -22,21 +22,21 @@ const expSkills = skills?.map((skill : string) => {
 
 <article>
     <header>
-        <div>
+        <div class="header-title-container">
             <h3>{name}</h3>
+            <h4>Issued by {issuer}</h4>
         </div>
         <Date date={date}></Date>
     </header>
-    <p>Issued by {issuer}</p>
     {
         <SkillsGrid skills={expSkills}>
         </SkillsGrid>
     }
 </article>
 
-<style lang="scss">
+<style lang="scss" define:vars={{lightSub: FONT_COLORS.subtitle.light, darkSub: FONT_COLORS.subtitle.dark}}>
 
-header{
+    header{
         display: grid;
         grid-template-columns: 60% 40%;
         margin-bottom: 0.5rem;
@@ -45,13 +45,19 @@ header{
         margin-bottom: 1.2rem;
     }
 
-    div{
+    .header-title-container{
         display: flex;
+        flex-direction: column;
     }
 
     h3{
         color: #454545;
         margin-right: 1rem;
+    }
+
+    h4{
+        color: var(--lightSub);
+        font-size: .9rem;
     }
     p{
         font-size: .8rem;
@@ -61,6 +67,11 @@ header{
     :global(.dark){
             h3{
                 color: rgb(220, 219, 219);
+            }
+
+            h4{
+                color: var(--darkSub);
+                font-size: .9rem;
             }
         }
         
@@ -72,6 +83,10 @@ header{
 
         h3{
             color: #353535 !important;
+        }
+
+        h4{
+            color: #949494 !important;
         }
 
         p{
