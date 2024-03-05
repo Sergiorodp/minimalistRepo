@@ -122,6 +122,17 @@
       }
     },
     {
+      "name": " Applied Machine Learning in Python",
+      "date": "2021-08-07",
+      "issuer": "University of Michigan",
+      "summary": "",
+      "url": "https://certificate.com",
+      "skills": ["python"],
+      "skill": {
+        "name" : "PYTHON"
+      }
+    },
+    {
       "name": "NodeJs: Build The Complete E-Commerce Web API [2021]",
       "date": "2021-06-07",
       "issuer": "Udemy",
@@ -190,6 +201,14 @@
         "name": "mongoDB",
         "level": "Master",
         "iconKey":"mongodb",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "Python",
+        "iconKey":"python",
+        "level": "medio",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
