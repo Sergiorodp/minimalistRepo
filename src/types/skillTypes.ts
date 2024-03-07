@@ -4,5 +4,7 @@ export interface ISkill {
     backgroundColor?: string
     iconKey?: string
     level?: string
-    keywords?: string[]
+    keywords?: string[],
+    darkColor?: string,
+    fontColorDark?: string
 }
