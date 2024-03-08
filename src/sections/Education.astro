@@ -1,14 +1,20 @@
 ---
-import Section from "../Section.astro";
+import Section from "@app/components/Section.astro";
 import Article from "@app/components/ExperienceArticle.astro";
-import { work } from "@cv";
-import { MONTHS, obtenerFechaActualISO } from "@app/utils/DateFormat";
+import  CV from "@cv";
+import { obtenerFechaActualISO, MONTHS } from "@app/utils/DateFormat";
+// i18n
+import { useTranslations } from '@app/utils/i18n'
+
+const { education } = CV
+const t = useTranslations('en')
+
 ---
 
-<Section title="Experience" hoverColor="yellow">
+<Section title={t('section.education')} hoverColor="red">
     <ul>
         {
-            work.map(({name, position, startDate, endDate, summary, skills}) => {
+            education.map(({area, summary, startDate, endDate, institution}) => {
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
@@ -16,12 +22,11 @@ import { MONTHS, obtenerFechaActualISO } from "@app/utils/DateFormat";
                 return (
                     <li>
                         <Article
-                            name={name}
-                            position={position}
+                            name={area}
+                            position={institution}
                             startDate={startDate}
                             endDate={endDate}
                             summary={summary}
-                            skills={skills}
                         >
                         </Article>
                     </li>
@@ -33,7 +38,6 @@ import { MONTHS, obtenerFechaActualISO } from "@app/utils/DateFormat";
 
 <style>
     ul{
-        margin: 0;
         padding: 0;
     }
 </style>

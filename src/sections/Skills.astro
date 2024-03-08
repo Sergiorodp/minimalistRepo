@@ -23,6 +23,22 @@ const {skills} = CV
  
 </Section>
 
+<Section>
+
+    {
+        skills.map((skill) => {
+            if(skill.keywords.includes('Frontend') && skill?.iconKey){ 
+                return(
+                    <Skill icon={skill.iconKey} width="30px" height="30px">
+                    </Skill>
+                )
+            }
+        })  
+    }
+
+</Section>
+
+
 <style>
     .skillContainer{
         display: flex;
