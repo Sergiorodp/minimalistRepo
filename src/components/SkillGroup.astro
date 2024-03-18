@@ -1,0 +1,82 @@
+---
+import Skill from "@app/components/Skill.astro";
+import CV from "@cv";
+import Title from "@app/components/Title.astro"
+
+const {skills} = CV;
+const {title = '', filter = ''} = Astro.props
+---
+
+<section class="skills-division">
+    <header>
+        <h2>
+            {title}
+        </h2>
+    </header>
+    <div class="skills-group">
+        {
+            skills.map((skill) => {
+                if(skill.keywords.includes(filter) && skill?.iconKey){ 
+                    return(
+                        <Skill icon={skill.iconKey} width="30px" height="30px">
+                        </Skill>
+                    )
+                }
+            })  
+        }
+    </div>
+    
+</section>
+
+<style lang="scss">
+
+    :global(.dark) .skills-division{
+        border: 1px solid #4a4a4a;
+        h2{
+                margin: 0px 0px 1rem 0px ;
+                color: #dedede;
+        }
+    }
+
+    .skills-division{
+        border: 1.5px solid #cecece;
+        border-radius: 10px;
+        padding: 16px;
+        display: flex;
+        box-shadow: 0px 0px 10px 0px #56565611;
+        flex-direction: column;
+
+        h2{
+            margin: 0px 0px 1rem 0px ;
+            color: #252525;
+        }
+
+        header{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    :global(.dark) {
+        .skills-division:hover{
+            background: #ffffff11;   
+            box-shadow: 0px 0px 10px 0px #d5d5d511;
+        }
+    }
+
+    .skills-division:hover {
+        background: #00000011;
+    }
+
+    .skills-group{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 250px;
+        margin: auto;
+        justify-content: center;
+        align-self: center;   
+        gap: 1rem;
+    }
+
+</style>
