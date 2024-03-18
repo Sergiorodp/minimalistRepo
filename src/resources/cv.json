@@ -157,7 +157,7 @@
         "":"",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend"
+          "Desarrollo Web", "DevOps"
         ]
       },
       {
@@ -252,6 +252,14 @@
         "level": "Avanzado",
       "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Astro",
+        "iconKey":"astro",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript"
         ]
       },
       {
