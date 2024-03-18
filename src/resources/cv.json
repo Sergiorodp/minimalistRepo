@@ -154,9 +154,10 @@
       {
         "name": "AWS",
         "iconKey":"aws",
+        "":"",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend"
+          "Desarrollo Web", "DevOps"
         ]
       },
       {
@@ -164,7 +165,7 @@
         "level": "medio",
         "iconKey":"azure",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
+          "Control de Versiones", "Colaboración", "Código Fuente", "DevOps"
         ]
       },
       {
@@ -172,7 +173,7 @@
         "level": "Avanzado",
         "iconKey":"docker",
         "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          "Desarrollo Web", "DevOps", "JavaScript", "Servidor"
         ]
       },
       {
@@ -180,7 +181,7 @@
         "iconKey": "nodejs",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend"
+          "Desarrollo Web", "Backend"
         ]
       },
       {
@@ -188,21 +189,21 @@
         "level": "Medio",
         "iconKey":"csharp",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
+          "Control de Versiones", "Colaboración", "Backend"
         ]
       },
       {
         "name": ".NET",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend"
+          "Desarrollo Web", "Backend"
         ]
       },{
         "name": "mongoDB",
         "level": "Master",
         "iconKey":"mongodb",
         "keywords": [
-          "Desarrollo Web", "Frontend"
+          "Desarrollo Web", "Backend"
         ]
       },
       {
@@ -210,7 +211,7 @@
         "iconKey":"python",
         "level": "medio",
         "keywords": [
-          "Desarrollo Web", "Frontend"
+          "Desarrollo Web", "Backend"
         ]
       },
       {
@@ -249,8 +250,16 @@
         "name": "TypeScript",
         "iconKey":"typescript",
         "level": "Avanzado",
-        "keywords": [
+      "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Astro",
+        "iconKey":"astro",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript"
         ]
       },
       {
@@ -266,7 +275,7 @@
         "iconKey":"react",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          "Desarrollo Web", "Frontend", "JavaScript", "Servidor"
         ]
       },
       {
@@ -274,7 +283,7 @@
         "level": "Avanzado",
         "iconKey":"git",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
+          "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
         ]
       },
       {
@@ -282,7 +291,7 @@
         "level": "Avanzado",
         "iconKey":"github",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
+          "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
         ]
       },
       {
@@ -290,14 +299,14 @@
         "level": "medio",
         "iconKey":"lit",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
+          "Control de Versiones", "Colaboración", "Código Fuente", "Frontend"
         ]
       },
       {
         "name": "SCRUM",
         "level": "Avanzado",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
+          "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
         ]
       }
     ],

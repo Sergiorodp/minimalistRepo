@@ -2,6 +2,14 @@ export const FONT_COLORS = {
     subtitle: {
         dark: '#F1CC4C',
         light: '#071bbd'
+    },
+    h3: {
+        dark: '',
+        light: ''
+    },
+    h4: {
+        dark: '#F1CC4C',
+        light: '#071bbd'
     }
 }
 
