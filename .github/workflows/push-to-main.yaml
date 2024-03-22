@@ -40,7 +40,6 @@ jobs:
           run: pnpm run check
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push'}}
     needs: [lint]
     steps:
       - name: Checkout repo
@@ -58,3 +57,26 @@ jobs:
         with:
           name: dist
           path: dist
+
+  deploy: 
+    runs-on: ubutu-lates
+    if: ${{ github.event_name == 'push'}}
+    needs: [build]
+    steps: 
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: dist
+          path: dist
+
+      - name: aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with: 
+          aws-access-key-id: ${{secrets.AWS_ACCESS_KEY}}
+          aws-secret-access-key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+          aws-region: us-east-1
+          
+      - name: Copy to s3
+        run: aws s3 sync ./dist/. s3://minimalistrepo --delete
