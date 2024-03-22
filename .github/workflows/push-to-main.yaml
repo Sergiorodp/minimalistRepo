@@ -59,7 +59,7 @@ jobs:
           path: dist
 
   deploy: 
-    runs-on: ubutu-lates
+    runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push'}}
     needs: [build]
     steps: 
