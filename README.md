@@ -1,3 +1,5 @@
+[![Deploy to main](https://github.com/Sergiorodp/minimalistRepo/actions/workflows/push-to-main.yaml/badge.svg)](https://github.com/Sergiorodp/minimalistRepo/actions/workflows/push-to-main.yaml)
+
 # Astro Starter Kit: Basics
 
 ```sh
