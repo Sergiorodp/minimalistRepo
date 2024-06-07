@@ -1,18 +1,19 @@
 ---
-import Section from "@app/components/Section.astro";
-import CertificatesArticle from "@app/components/CertificatesArticle.astro";
+import Section from "@app/components/Section.astro"
+import CertificatesArticle from "@app/components/CertificatesArticle.astro"
 
 // json cv
-import { certificates } from "@app/resources/cv.json";
+import { certificates } from "@app/resources/cv.json"
 // i18n
 import { useTranslations } from '@app/utils/i18n'
 
 const t = useTranslations('en')
+const filterCertificates = certificates.slice(0,4)
 ---
 
 <Section title={t('section.certificates')}>
     {
-        certificates.map( ({name, issuer, date, skills}) => {
+        filterCertificates.map( ({name, issuer, date, skills}) => {
             return(
                 <CertificatesArticle
                     name={name}

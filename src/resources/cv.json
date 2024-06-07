@@ -79,6 +79,18 @@
       ]
     }],
     "education": [{
+      "institution": "Sergio Arboleda University",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Electronic Engineer",
+      "studyType": "Bachelor",
+      "startDate": "2018-01-05",
+      "endDate": "2022-01-01",
+      "summary": "Electronic engineering degree with emphasis on IoT, Machine Learning and embedded systems.",
+      "score": "4.4",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },{
       "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "url": "https://www.uoc.edu/portal/es/index.html",
       "area": "Deployment of Docker applications",
@@ -91,18 +103,6 @@
         "DB1101 - Basic SQL"
       ],
       "skiills": ["docker"]
-    },{
-      "institution": "Sergio Arboleda University",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Electronic Engineer",
-      "studyType": "Bachelor",
-      "startDate": "2018-01-05",
-      "endDate": "2022-01-01",
-      "summary": "Electronic engineering degree with emphasis on IoT, Machine Learning and embedded systems.",
-      "score": "4.4",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
     }],
     "awards": [{
       "title": "Award",
@@ -110,7 +110,17 @@
       "awarder": "Company",
       "summary": "There is no spoon."
     }],
-    "certificates": [{
+    "certificates": [
+      {
+        "name": "Cloud Native: Nodejs Associate",
+        "date": "2024-06-20",
+        "issuer": "Accenture",
+        "summary": "",
+        "url": "https://certificate.com",
+        "skills": ["nodejs"],
+        "skill": {}
+      },
+      {
       "name": "Desarrollo seguro (CSSLP)",
       "date": "2024-03-15",
       "issuer": "Net4Skills",
