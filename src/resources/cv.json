@@ -6,8 +6,8 @@
       "email": "sergio.rod.perez@outlook.es",
       "phone": "+57 3163215583",
       "telegram": "https://t.me/Seandrod",
-      "url": "https://midu.dev",
-      "summary": "Hi my name is Sergio, Electronic Engineer, I have 3+ year of experience in BackEnd microservices, frontend, MVC and embedded development. Currently, involved improving my knowledge cloud services architecture for better performance in client solutions. I work on different integration technologies, tools and frameworks like Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem among others. In process to expertises in Cloud arquitecture and agile methodologies.\n\nStrong knowledge of DevOps practices and software life cycle. Applying this in ETB & BBVA apps like MiTEB, BBVA app, and backend services.\n\nWith a professional degree in Electronic engineer from Sergio Arboleda University, Bogotá (Colombia), AWS Cloud practitioner certification and AWS Developer Associate incoming, last but no less important English C1.",
+      "url": "",
+      "summary": "Hi my name is Sergio, Electronic Engineer, I have 3+ year of experience in BackEnd microservices, frontend, MVC and embedded development. Currently, involved improving my knowledge cloud services architecture for better performance in client solutions. I work on different integration technologies, tools and frameworks like Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem among others. In process to expertise in Cloud architecture and agile methodologies.\n\nStrong knowledge of DevOps practices and software life cycle. Applying this in ETB & BBVA apps like MiTEB, BBVA app, and backend services.\n\nWith a professional degree in Electronic engineer from Sergio Arboleda University, Bogotá (Colombia), AWS Cloud practitioner certification and AWS Developer Associate incoming, last but no less important English C1.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -34,10 +34,10 @@
       {
         "name": "Accenture with BBVA",
         "position": "Custom Software Engineering Associate",
-        "url": "https://twitch.tv/midudev",
+        "url": "",
         "startDate": "2023-02-01",
         "endDate": null,
-        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit) and Lit-Html, Monitoring with IBM tealeaf, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable user experience and design.",
+        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit), responsive design, integration with Acoustic teleaf and appsflyer, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable apps, experience and design.",
         "highlights": [
           "Started the company"
         ],
@@ -46,7 +46,7 @@
       {
         "name": "Accenture with ETB",
         "position": "Associate Application Developer",
-        "url": "https://twitch.tv/midudev",
+        "url": "",
         "startDate": "2022-01-05",
         "endDate": "2023-02-01",
         "summary": "Developer in Back services, front-end design and database management for different softwares used by ETB, such as SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SRUM, and CI/CD management for code deploy and quality control.",
@@ -352,27 +352,6 @@
     }],
     "projects": [
       {
-        "name": "mars.codes",
-        "isActive": true,
-        "description": "Historia interactiva con retos de programación para viajar a Marte",
-        "highlights": [
-          "Elige tu propia aventura",
-          "En desarrollo"
-        ],
-        "url": "https://mars.codes"
-      },
-      {
-        "name": "AdventJS",
-        "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-        "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
-        ],
-        "url": "https://advent.js/dev"
-      },
-      {
         "name": "Codember",
         "isActive": true,
         "description": "Juego interactivo de programación con retos y secretos",
@@ -380,38 +359,7 @@
           "+2000 usuarios activos",
           "Retos para cualquier lenguaje"
         ],
-        "url": "https://codember.dev"
-      },
-      {
-        "name": "codi.link",
-        "isActive": true,
-        "description": "Playground de código HTML, CSS y JavaScript para compartir",
-        "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
-        ],
-        "url": "https://codi.link",
-        "github": "https://github.com/midudev/codi.link"
-      },
-      {
-        "name": "Pruebas Técnicas",
-        "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
-        "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
-        ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
-      },
-      {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-        "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
-        ],
-        "url": "https://miduconf.com"
+        "url": ""
       }
     ]
   }
