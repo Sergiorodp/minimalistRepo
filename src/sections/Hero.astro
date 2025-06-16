@@ -56,18 +56,13 @@ const ICONS : Record<string, any> = {
                 </div>
             </footer>
         </div>
-        <figure>
+        <figure style="display: none;">
             <img src={image} alt={`${name}`} width="200"/>
         </figure>
     </div>
 </Section>
 
 <style lang="scss">
-
-    .hero-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
 
     .name{
         color: black;
@@ -123,10 +118,6 @@ const ICONS : Record<string, any> = {
 
 
     @media only screen and (max-width: 600px){
-        .hero-container{
-            display: grid;
-            grid-template-columns: 55% 45%;
-        }
 
         .name{
             font-size: 1.5rem;

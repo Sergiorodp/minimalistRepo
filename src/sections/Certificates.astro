@@ -13,13 +13,12 @@ const filterCertificates = certificates.slice(0,4)
 
 <Section title={t('section.certificates')}>
     {
-        filterCertificates.map( ({name, issuer, date, skills}) => {
+        filterCertificates.map( ({name, issuer, date}) => {
             return(
                 <CertificatesArticle
                     name={name}
                     issuer={issuer}
                     date={date}
-                    skills={skills}
                 >
                 </CertificatesArticle>
             )

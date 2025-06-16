@@ -7,7 +7,7 @@
       "phone": "+57 3163215583",
       "telegram": "https://t.me/Seandrod",
       "url": "",
-      "summary": "Hi my name is Sergio, Electronic Engineer, I have 4+ year of experience in BackEnd microservices, frontend, MVC and embedded development. Currently, involved improving my knowledge cloud services architecture for better performance in client solutions. I work on different integration technologies, tools and frameworks like Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem among others. In process to expertise in Cloud architecture and agile methodologies.",
+      "summary": "Frontend focused fullstack developer with 4+ years of experience in software development, specializing in scalable Node.js applications, with experience in MongoDB, PostgreSQL, express, Spring, and AWS. Proficient in modern web technologies including React, Next.js, and Astro. Strong advocate for clean code practices and agile methodologies. Passionate about building efficient, user-friendly applications and continuously improving skills in cloud computing and DevOps.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -33,11 +33,11 @@
     "work": [
       {
         "name": "BBVA Colombia",
-        "position": "Software Expert I (Senior)",
+        "position": "Software Expert I",
         "url": "",
         "startDate": "2024-07-04",
         "endDate": null,
-        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit), responsive design, integration with Acoustic teleaf and appsflyer, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable apps, experience and design.",
+        "summary": "senior software engineer in front end BBVA apps and websites, using modern technologies like web components, web app kit for ios and android inAppBrowser, responsive design and integration with analytics services like adobe analytics, Acoustic teleaf and appsflyer. Applying best software development practices, including clean code, testing (TDD), design patterns, and agile methodologies to ensure high-quality deliverables.",
         "highlights": [
           "Started the company"
         ],
@@ -86,7 +86,7 @@
       "studyType": "Bachelor",
       "startDate": "2018-01-05",
       "endDate": "2022-01-01",
-      "summary": "Electronic engineering degree with emphasis on IoT, Machine Learning and embedded systems.",
+      "summary": "Electronic engineering program with a focus on software development, covering areas such as programming languages, database management, and system design. The curriculum included practical projects and internships to apply theoretical knowledge in real-world scenarios.",
       "score": "4.4",
       "courses": [
         "DB1101 - Basic SQL"
@@ -98,7 +98,7 @@
       "studyType": "technician",
       "startDate": "2023-08-20",
       "endDate": "2023-10-01",
-      "summary": "Short course",
+      "summary": "Short course focused on the deployment and management of applications using Docker. Covered topics such as containerization, orchestration, and best practices for deploying scalable applications in a cloud environment.",
       "score": "4.4",
       "courses": [
         "DB1101 - Basic SQL"
@@ -363,6 +363,42 @@
         ],
         "url": ""
       }
+    ],
+    "keywords": [
+      "JavaScript",
+      "Node.js",
+      "Lit.js",
+      "React",
+      "Next.js",
+      "Astro",
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "MongoDB",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "Git",
+      "GitHub",
+      "express",
+      "C#",
+      ".NET",
+      "Python",
+      "Azure",
+      "SCRUM",
+      "Web Development",
+      "Frontend Development",
+      "Backend Development",
+      "Fullstack Development",
+      "DevOps",
+      "Agile Methodologies",
+      "Clean Code",
+      "Software Engineering",
+      "Web Components",
+      "Responsive Design",
+      "Adobe Analytics",
+      "TDD",
+      "Design Patterns"
     ]
   }
   

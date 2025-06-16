@@ -12,7 +12,7 @@ const t = useTranslations('en')
 ---
 
 <Section title={t('section.education')} hoverColor="red">
-    <ul>
+    <>
         {
             education.map(({area, summary, startDate, endDate, institution}) => {
                 const startSplit = startDate?.split('-')
@@ -20,6 +20,7 @@ const t = useTranslations('en')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
                 endDate = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
                 return (
+                    
                     <li>
                         <Article
                             name={area}
@@ -30,6 +31,7 @@ const t = useTranslations('en')
                         >
                         </Article>
                     </li>
+                    
                 )
             })
         }

@@ -12,14 +12,14 @@ import { MONTHS, obtenerFechaActualISO } from "@app/utils/DateFormat";
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
-                endDate = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
+                const endDateFormat = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
                 return (
                     <li>
                         <Article
                             name={name}
                             position={position}
                             startDate={startDate}
-                            endDate={endDate}
+                            endDate={endDate ? endDateFormat: 'Present'}
                             summary={summary}
                             skills={skills}
                         >

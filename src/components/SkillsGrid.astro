@@ -1,5 +1,5 @@
 ---
-import Skill from "@app/components/Skill.astro";
+import Skill from "@app/components/SkillLabel.astro";
 import { type ISkill } from '@app/types/skillTypes'
 
 interface Props {
@@ -12,14 +12,10 @@ const areSkills = skills.length > 0 ? 'flex' : 'none'
 
 <div class="skillContainer">
     {
-        skills.map(({iconKey = '', backgroundColor, noDarkMode})=>{
-            if(iconKey !== ''){
+        skills.map(({name = '',})=>{
                 return(
-                    <Skill icon={iconKey} background={backgroundColor} noDarkMode={noDarkMode} width="17px" height="17px">
-                    </Skill>
+                    <Skill skill={name}/>
                 )
-            }
-            return 
         })
     }
 </div>
@@ -28,7 +24,7 @@ const areSkills = skills.length > 0 ? 'flex' : 'none'
     .skillContainer{
         margin-top: .5rem;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 0.313rem;
     }
 
     .skillContainer{

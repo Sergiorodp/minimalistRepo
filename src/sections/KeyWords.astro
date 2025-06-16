@@ -1,0 +1,26 @@
+---
+import Section from "@app/components/Section.astro";
+import KeywordLabel from "@app/components/KeywordLabel.astro";
+// json cv
+import { keywords } from "@app/resources/cv.json"
+---
+
+<Section title="Keywords" hoverColor="yellow">
+    <div>
+    {
+        keywords.map((keyword) => {
+            return (
+                <KeywordLabel keyword={keyword}></KeywordLabel>
+            )
+        })
+    }
+    </div>
+</Section>
+
+<style>
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+</style>

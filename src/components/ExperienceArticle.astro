@@ -17,9 +17,9 @@ const expSkills = skills?.map((skill : string) => {
     <header>
         <div>
             <h3>{name}</h3>
-            <h4>{position}</h4>
+            <h4 class="mono">{position}</h4>
         </div>
-        <span>{`${startDate} - ${endDate}`}</span>
+        <span class="">{`${startDate} - ${endDate}`}</span>
     </header>
     <p>{summary}</p>
     <SkillsGrid skills={expSkills}>
@@ -41,7 +41,8 @@ const expSkills = skills?.map((skill : string) => {
         padding: 0px 1rem 0px 0px;
         display: flex;
         justify-content: end;
-        color: #454545;
+        font-size: .875rem;
+        color: #7a7a7a;
     }
 
     h3{
@@ -49,8 +50,9 @@ const expSkills = skills?.map((skill : string) => {
     }
 
     h4{
+        margin-top: .5rem;
         color: var(--lightSub);
-        font-size: .9rem;
+        font-size: .875rem;
     }
 
     p{
@@ -89,7 +91,7 @@ const expSkills = skills?.map((skill : string) => {
         }
 
         span{
-            color: #454545 !important;
+            color: #6d6d6d !important;
         }
 
         h3{
