@@ -6,5 +6,6 @@ export interface ISkill {
     level?: string
     keywords?: string[],
     darkColor?: string,
-    fontColorDark?: string
+    fontColorDark?: string,
+    noDarkMode?: boolean,
 }

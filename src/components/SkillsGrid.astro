@@ -12,10 +12,10 @@ const areSkills = skills.length > 0 ? 'flex' : 'none'
 
 <div class="skillContainer">
     {
-        skills.map(({iconKey = '', backgroundColor})=>{
+        skills.map(({iconKey = '', backgroundColor, noDarkMode})=>{
             if(iconKey !== ''){
                 return(
-                    <Skill icon={iconKey} background={backgroundColor} width="17px" height="17px">
+                    <Skill icon={iconKey} background={backgroundColor} noDarkMode={noDarkMode} width="17px" height="17px">
                     </Skill>
                 )
             }
