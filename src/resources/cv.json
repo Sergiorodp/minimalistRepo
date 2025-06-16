@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Sergio Andrés Rodríguez Pérez",
-      "label": "Electronic Engineer & Developer",
+      "label": "Electronic & Software Engineer",
       "image": "./Sergio_photo_op.webp",
       "email": "sergio.rod.perez@outlook.es",
       "phone": "+57 3163215583",
@@ -32,11 +32,23 @@
     },
     "work": [
       {
+        "name": "BBVA Colombia",
+        "position": "Software Expert I (Senior)",
+        "url": "",
+        "startDate": "2023-02-01",
+        "endDate": null,
+        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit), responsive design, integration with Acoustic teleaf and appsflyer, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable apps, experience and design.",
+        "highlights": [
+          "Started the company"
+        ],
+        "skills": ["javascript", "html", "css", "lit", "nodejs","git","aws"]
+      },
+      {
         "name": "Accenture with BBVA",
         "position": "Custom Software Engineering Associate",
         "url": "",
         "startDate": "2023-02-01",
-        "endDate": null,
+        "endDate": "2024-05-13",
         "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit), responsive design, integration with Acoustic teleaf and appsflyer, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable apps, experience and design.",
         "highlights": [
           "Started the company"
@@ -54,17 +66,6 @@
           "Started the company"
         ],
         "skills": ["mongodb","csharp", "nodejs", "azure", "react","nextjs", "html", "css","javascript"]
-      },
-      {
-        "name": "Solutions",
-        "position": "Software Engineer",
-        "startDate": "2021-06-01",
-        "endDate": "2021-11-01",
-        "summary": "Develop embebed software for an start up company, focus in virtual electronic engineer lab, a solution for student that need real testing electronic components, an online environment designed with virtual reality and phidget boards.",
-        "highlights": [
-          "Started the company"
-        ],
-        "skills": ["c++", "nodejs", "aws", "javascript", "html", "css", "python"]
       }
     ],
     "volunteer": [{
@@ -175,6 +176,7 @@
         "iconKey":"aws",
         "":"",
         "level": "Master",
+        "noDarkMode": true,
         "keywords": [
           "Desarrollo Web", "DevOps"
         ]
