@@ -37,11 +37,11 @@
         "url": "",
         "startDate": "2024-07-04",
         "endDate": null,
-        "summary": "senior software engineer in front end BBVA apps and websites, using modern technologies like web components, web app kit for ios and android inAppBrowser, responsive design and integration with analytics services like adobe analytics, Acoustic teleaf and appsflyer. Applying best software development practices, including clean code, testing (TDD), design patterns, and agile methodologies to ensure high-quality deliverables.",
+        "summary": "Senior software engineer in BBVA, using modern technologies like web components, responsive design and integration with analytics services like adobe analytics, Acoustic teleaf and appsflyer. Backend technologies like: spring framework, microservices, cloud technologies, AWS services. Applying best software development practices, including clean code, testing (TDD), design patterns, and agile methodologies to ensure high-quality deliverables.",
         "highlights": [
           "Started the company"
         ],
-        "skills": ["javascript", "html", "css", "lit", "nodejs","git","aws"]
+        "skills": ["javascript", "Java", "SpringBoot", "typescript", "html", "css", "scss", "lit", "nodejs","git","aws", "jenkins", "E2E test", "selenium", "radish", "unit test", "accessibility test"]
       },
       {
         "name": "Accenture with BBVA",
@@ -53,7 +53,7 @@
         "highlights": [
           "Started the company"
         ],
-        "skills": ["javascript", "html", "css", "lit", "nodejs","git","aws"]
+        "skills": ["javascript", "typescript", "html", "css", "lit", "nodejs","git","aws"]
       },
       {
         "name": "Accenture with ETB",
@@ -65,7 +65,7 @@
         "highlights": [
           "Started the company"
         ],
-        "skills": ["mongodb","csharp", "nodejs", "azure", "react","nextjs", "html", "css","javascript"]
+        "skills": ["mongodb","C#", "nodejs", "azure", "react","nextjs", "html", "css","javascript"]
       }
     ],
     "volunteer": [{
@@ -182,6 +182,16 @@
         ]
       },
       {
+        "name": "jenkins",
+        "iconKey":"",
+        "":"",
+        "level": "High",
+        "noDarkMode": true,
+        "keywords": [
+           "DevOps"
+        ]
+      },
+      {
         "name": "azure",
         "level": "medio",
         "iconKey":"azure",
@@ -198,7 +208,7 @@
         ]
       },
       {
-        "name": "Node.js",
+        "name": "Nodejs",
         "iconKey": "nodejs",
         "level": "Master",
         "keywords": [
@@ -366,26 +376,37 @@
     ],
     "keywords": [
       "JavaScript",
+      "Java",
       "Node.js",
       "Lit.js",
       "React",
       "Next.js",
       "Astro",
+      "spring boot",
+      "spring",
+      "SQL",
       "HTML",
       "CSS",
       "TypeScript",
       "MongoDB",
+      "jenkins",
       "PostgreSQL",
       "AWS",
       "Docker",
       "Git",
       "GitHub",
       "express",
+      "jira",
+      "sonarqube",
+      "analytics",
+      "sonar",
       "C#",
       ".NET",
       "Python",
       "Azure",
       "SCRUM",
+      "python",
+      "Agile",
       "Web Development",
       "Frontend Development",
       "Backend Development",

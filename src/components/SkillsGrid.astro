@@ -6,13 +6,13 @@ interface Props {
     skills: ISkill[]
 }
 
-const { skills } = Astro.props
-const areSkills = skills.length > 0 ? 'flex' : 'none'
+const { skills = [] } = Astro.props
+const areSkills = skills?.length > 0 ? 'flex' : 'none'
 ---
 
 <div class="skillContainer">
     {
-        skills.map(({name = '',})=>{
+        skills.map((name)=>{
                 return(
                     <Skill skill={name}/>
                 )

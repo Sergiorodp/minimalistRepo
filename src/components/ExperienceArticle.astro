@@ -6,11 +6,7 @@ import { skills as cvSkills } from "@cv";
 
 const {name, position, startDate, endDate, summary, skills} = Astro.props;
 
-const expSkills = skills?.map((skill : string) => {
-        return cvSkills.filter( cvSkill => {
-            return cvSkill?.iconKey?.includes(skill)
-        })[0] ?? {}
-    }) ?? []
+const expSkills = skills
 ---
 
 <article>
