@@ -2,15 +2,18 @@
 import ThemeIcon from "@app/components/icons/ThemeIcon.astro";
 import PrintIcon from "@app/components/icons/PrintIcon.astro";
 import LogoIcon from "@app/components/icons/LogoIcon.astro";
+import LangToggle from "@app/components/icons/LangToggle.astro";
+import { getLangFromUrl } from "@app/utils/i18n";
 interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
@@ -30,6 +33,7 @@ const { title } = Astro.props;
 						></LogoIcon>
 					</div>
 					<div class="header-buttons">
+						<LangToggle />
 						<ThemeIcon label="Change theme aspect"></ThemeIcon>
 						<PrintIcon label="Print CV"></PrintIcon>
 					</div>

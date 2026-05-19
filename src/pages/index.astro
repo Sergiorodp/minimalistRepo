@@ -9,15 +9,17 @@ import Experience from '@app/sections/Experience.astro';
 import Skills from '@app/sections/Skills.astro';
 import Certifications from '@app/sections/Certificates.astro'
 import KeyWords from '@app/sections/KeyWords.astro';
+
+const lang = 'en' as const;
 ---
 
 <Layout title="Sergio Andres Rodriguez Backend CV">
-	<Hero></Hero>
-	<About></About>
-	<Experience></Experience>
-	<Education></Education>
-	<Certifications></Certifications>
-	<KeyWords/>
-	<Skills></Skills>
+	<Hero lang={lang}></Hero>
+	<About lang={lang}></About>
+	<Experience lang={lang}></Experience>
+	<Education lang={lang}></Education>
+	<Certifications lang={lang}></Certifications>
+	<KeyWords lang={lang}/>
+	<Skills lang={lang}></Skills>
 </Layout>
 

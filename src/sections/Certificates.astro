@@ -3,11 +3,14 @@ import Section from "@app/components/Section.astro"
 import CertificatesArticle from "@app/components/CertificatesArticle.astro"
 
 // json cv
-import { certificates } from "@app/resources/cv.json"
+import { getCVData } from '@app/utils/cvUtils';
 // i18n
 import { useTranslations } from '@app/utils/i18n'
 
-const t = useTranslations('en')
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const { certificates } = getCVData(lang);
+const t = useTranslations(lang)
 const filterCertificates = certificates.slice(0,4)
 ---
 

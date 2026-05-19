@@ -1,9 +1,13 @@
 ---
-import { basics } from "@app/resources/cv.json";
+import { getCVData } from '@app/utils/cvUtils';
 
 //components
 import Section from "@app/components/Section.astro";
 import Subtitle from "@app/components/SubTitle.astro"
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const { basics } = getCVData(lang);
 
 const {name, label, image, location, profiles, telegram, email} = basics
 
