@@ -7,7 +7,7 @@
       "phone": "+57 3163215583",
       "telegram": "https://t.me/Seandrod",
       "url": "",
-      "summary": "Frontend focused fullstack developer with 4+ years of experience in software development, specializing in scalable Node.js applications, with experience in MongoDB, PostgreSQL, express, Spring, and AWS. Proficient in modern web technologies including React, Next.js, and Astro. Strong advocate for clean code practices and agile methodologies. Passionate about building efficient, user-friendly applications and continuously improving skills in cloud computing and DevOps.",
+      "summary": "Software Engineer with over 5 years of experience, specialized in developing high-impact technology solutions and cloud architectures. With a solid track record spanning from backend to modern web technologies, I now focus my profile at the intersection of software development and Artificial Intelligence, implementing AI tools to build more competitive products. Committed to technical excellence through Clean Code, DevOps automation, and continuous improvement.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -37,7 +37,7 @@
         "url": "",
         "startDate": "2024-07-04",
         "endDate": null,
-        "summary": "Senior software engineer in BBVA, using modern technologies like web components, responsive design and integration with analytics services like adobe analytics, Acoustic teleaf and appsflyer. Backend technologies like: spring framework, microservices, cloud technologies, AWS services. Applying best software development practices, including clean code, testing (TDD), design patterns, and agile methodologies to ensure high-quality deliverables.",
+        "summary": "Senior Software Engineer at BBVA specialized in full-stack development (Frontend/Backend) and cloud architectures. Currently focusing on integrating Artificial Intelligence to boost efficiency and innovation in software. Strictly applying industry best practices such as Clean Code, TDD, and agile methodologies to ensure scalable, high-quality products.",
         "highlights": [
           "Started the company"
         ],
@@ -45,11 +45,11 @@
       },
       {
         "name": "Accenture with BBVA",
-        "position": "Custom Software Engineering Associate",
+        "position": "Associate Software Engineer",
         "url": "",
         "startDate": "2023-02-01",
         "endDate": "2024-06-13",
-        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit), responsive design, integration with Acoustic teleaf and appsflyer, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable apps, experience and design.",
+        "summary": "Associate Engineer in frontend development for BBVA apps and websites, using technologies such as Web Components with Lit-element, responsive design, integration with Acoustic Teleaf and Appsflyer, AWS S3 for deployment storage and BBVA's JS and Java-based frameworks, applying advanced browser knowledge to build efficient, comfortable applications with an improved user experience and design.",
         "highlights": [
           "Started the company"
         ],
@@ -61,7 +61,7 @@
         "url": "",
         "startDate": "2022-01-05",
         "endDate": "2023-02-01",
-        "summary": "Developer in Back services, front-end design and database management for different softwares used by ETB, such as SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SRUM, and CI/CD management for code deploy and quality control.",
+        "summary": "Backend services developer, frontend design and database management for different software used by ETB, such as the SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SCRUM, and CI/CD management for code deployment and quality control.",
         "highlights": [
           "Started the company"
         ],
@@ -131,7 +131,7 @@
         "skill": {}
       },
       {
-      "name": "Desarrollo seguro (CSSLP)",
+      "name": "Secure Development (CSSLP)",
       "date": "2024-03-15",
       "issuer": "Net4Skills",
       "summary": "",
@@ -364,10 +364,10 @@
       {
         "name": "Codember",
         "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
+        "description": "Interactive programming game with challenges and secrets",
         "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
+          "+2000 active users",
+          "Challenges for any programming language"
         ],
         "url": ""
       }
