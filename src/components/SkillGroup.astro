@@ -17,7 +17,7 @@ const {title = '', filter = ''} = Astro.props
             skills.map((skill) => {
                 if(skill.keywords.includes(filter) && skill?.iconKey){ 
                     return(
-                        <Skill icon={skill.iconKey} width="30px" height="30px">
+                        <Skill icon={skill.iconKey} width="30px" height="30px" noDarkMode={skill.noDarkMode ?? false}>
                         </Skill>
                     )
                 }

@@ -295,6 +295,7 @@
         "name": "Next.js",
         "iconKey":"nextjs",
         "level": "Avanzado",
+        "noDarkMode": true,
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
         ]
@@ -319,6 +320,7 @@
         "name": "GitHub",
         "level": "Avanzado",
         "iconKey":"github",
+        "noDarkMode": true,
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
         ]
