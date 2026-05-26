@@ -122,6 +122,24 @@
   ],
   "certificates": [
     {
+      "name": "Google AI Essentials",
+      "date": "2025-01-01",
+      "issuer": "Google",
+      "summary": "",
+      "url": "https://certificate.com",
+      "skills": [],
+      "skill": {}
+    },
+    {
+      "name": "EF SET Certificate — B2 Intermedio Alto",
+      "date": "2024-01-01",
+      "issuer": "EF Standard English Test",
+      "summary": "Inglés B2 Intermedio Alto",
+      "url": "https://certificate.com",
+      "skills": [],
+      "skill": {}
+    },
+    {
       "name": "Desarrollo seguro (CSSLP)",
       "date": "2024-03-15",
       "issuer": "Net4Skills",
