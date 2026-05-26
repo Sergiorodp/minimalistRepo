@@ -113,15 +113,6 @@
     }],
     "certificates": [
       {
-        "name": "Cloud Native: Nodejs Associate",
-        "date": "2024-06-20",
-        "issuer": "Accenture",
-        "summary": "",
-        "url": "https://certificate.com",
-        "skills": ["nodejs"],
-        "skill": {}
-      },
-      {
       "name": "Desarrollo seguro (CSSLP)",
       "date": "2024-03-15",
       "issuer": "Net4Skills",
@@ -129,17 +120,6 @@
       "url": "https://certificate.com",
       "skills": [],
       "skill": {}
-    },
-      {
-      "name": "AWS Certified Cloud Practitioner",
-      "date": "2023-03-07",
-      "issuer": "AWS",
-      "summary": "",
-      "url": "https://certificate.com",
-      "skills": ["aws"],
-      "skill": {
-        "name" : "AWS"
-      }
     },
     {
       "name": " Applied Machine Learning in Python",

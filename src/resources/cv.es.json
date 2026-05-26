@@ -7,7 +7,7 @@
     "phone": "+57 3163215583",
     "telegram": "https://t.me/Seandrod",
     "url": "",
-    "summary": "Desarrollador fullstack con enfoque frontend y más de 4 años de experiencia en desarrollo de software, especializado en aplicaciones escalables con Node.js, con experiencia en MongoDB, PostgreSQL, Express, Spring y AWS. Dominio de tecnologías web modernas, incluyendo React, Next.js y Astro. Firme defensor de las buenas prácticas de clean code y de las metodologías ágiles. Apasionado por construir aplicaciones eficientes y fáciles de usar, y por mejorar continuamente sus habilidades en computación en la nube y DevOps.",
+    "summary": "Ingeniero de Software con más de 5 años de experiencia, especializado en el desarrollo de soluciones tecnológicas de alto impacto y arquitecturas en la nube. Con una sólida trayectoria que abarca desde el backend hasta tecnologías web modernas, hoy enfoco mi perfil hacia la confluencia del desarrollo de software y la Inteligencia Artificial, implementando herramientas de IA para crear productos más competitivos. Comprometido con la excelencia técnica a través de Clean Code, automatización DevOps y mejora continua.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,11 +33,11 @@
   "work": [
     {
       "name": "BBVA Colombia",
-      "position": "Experto en Software I",
+      "position": "Software Expert I",
       "url": "",
       "startDate": "2024-07-04",
       "endDate": null,
-      "summary": "Ingeniero de software senior en BBVA, utilizando tecnologías modernas como web components, diseño responsive e integración con servicios de analítica como Adobe Analytics, Acoustic teleaf y Appsflyer. Tecnologías backend como Spring Framework, microservicios, tecnologías cloud y servicios de AWS. Aplicando las mejores prácticas de desarrollo de software, incluyendo clean code, testing (TDD), patrones de diseño y metodologías ágiles para garantizar entregables de alta calidad.",
+      "summary": "Ingeniero de Software Senior en BBVA especializado en desarrollo integral (Frontend/Backend) y arquitecturas en la nube. Actualmente, enfoco mi perfil en la integración de Inteligencia Artificial para potenciar la eficiencia y la innovación en el software. Aplico estrictamente las mejores prácticas de la industria, como Clean Code, TDD y metodologías ágiles, garantizando productos escalables y de alta calidad.",
       "highlights": [
         "Started the company"
       ],
@@ -49,7 +49,7 @@
       "url": "",
       "startDate": "2023-02-01",
       "endDate": "2024-06-13",
-      "summary": "Participación en el desarrollo frontend para apps y sitios web de BBVA, utilizando tecnologías como Web Components con Lit-element (ahora solo Lit), diseño responsive, integración con Acoustic teleaf y Appsflyer, AWS S3 para almacenamiento de despliegues y frameworks base de BBVA en JS y Java, aplicando conocimientos avanzados de navegador para crear aplicaciones eficientes, cómodas y con una mejor experiencia y diseño.",
+      "summary": "Ingeniero Asociado en el desarrollo frontend para apps y sitios web de BBVA, utilizando tecnologías como Web Components con Lit-element, diseño responsive, integración con Acoustic teleaf y Appsflyer, AWS S3 para almacenamiento de despliegues y frameworks base de BBVA en JS y Java, aplicando conocimientos avanzados de navegador para crear aplicaciones eficientes, cómodas y con una mejor experiencia y diseño.",
       "highlights": [
         "Started the company"
       ],
@@ -122,17 +122,6 @@
   ],
   "certificates": [
     {
-      "name": "Cloud Native: Nodejs Associate",
-      "date": "2024-06-20",
-      "issuer": "Accenture",
-      "summary": "",
-      "url": "https://certificate.com",
-      "skills": [
-        "nodejs"
-      ],
-      "skill": {}
-    },
-    {
       "name": "Desarrollo seguro (CSSLP)",
       "date": "2024-03-15",
       "issuer": "Net4Skills",
@@ -140,19 +129,6 @@
       "url": "https://certificate.com",
       "skills": [],
       "skill": {}
-    },
-    {
-      "name": "AWS Certified Cloud Practitioner",
-      "date": "2023-03-07",
-      "issuer": "AWS",
-      "summary": "",
-      "url": "https://certificate.com",
-      "skills": [
-        "aws"
-      ],
-      "skill": {
-        "name": "AWS"
-      }
     },
     {
       "name": " Applied Machine Learning in Python",
