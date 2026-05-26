@@ -113,8 +113,8 @@
     }],
     "certificates": [
       {
-        "name": "Google AI Essentials",
-        "date": "2025-01-01",
+        "name": "Google AI Professional",
+        "date": "2026-04-01",
         "issuer": "Google",
         "summary": "",
         "url": "https://certificate.com",
@@ -123,7 +123,7 @@
       },
       {
         "name": "EF SET Certificate — B2 Upper Intermediate",
-        "date": "2024-01-01",
+        "date": "2026-04-01",
         "issuer": "EF Standard English Test",
         "summary": "English B2 Upper Intermediate",
         "url": "https://certificate.com",
