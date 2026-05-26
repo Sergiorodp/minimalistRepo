@@ -1,18 +1,21 @@
 ---
 import Section from "@app/components/Section.astro";
 import Article from "@app/components/ExperienceArticle.astro";
-import  CV from "@cv";
-import { obtenerFechaActualISO, MONTHS } from "@app/utils/DateFormat";
+import { getMonths, obtenerFechaActualISO } from '@app/utils/DateFormat';
+import { getCVData } from '@app/utils/cvUtils';
 // i18n
 import { useTranslations } from '@app/utils/i18n'
 
-const { education } = CV
-const t = useTranslations('en')
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const { education } = getCVData(lang);
+const t = useTranslations(lang)
+const MONTHS = getMonths(lang);
 
 ---
 
 <Section title={t('section.education')} hoverColor="red">
-    <ul>
+    <>
         {
             education.map(({area, summary, startDate, endDate, institution}) => {
                 const startSplit = startDate?.split('-')
@@ -20,6 +23,7 @@ const t = useTranslations('en')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
                 endDate = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
                 return (
+                    
                     <li>
                         <Article
                             name={area}
@@ -30,6 +34,7 @@ const t = useTranslations('en')
                         >
                         </Article>
                     </li>
+                    
                 )
             })
         }

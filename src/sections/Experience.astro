@@ -1,25 +1,32 @@
 ---
 import Section from "@app/components/Section.astro";
 import Article from "@app/components/ExperienceArticle.astro";
-import { work } from "@cv";
-import { MONTHS, obtenerFechaActualISO } from "@app/utils/DateFormat";
+import { getCVData } from '@app/utils/cvUtils';
+import { useTranslations } from '@app/utils/i18n';
+import { getMonths, obtenerFechaActualISO } from '@app/utils/DateFormat';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
+const { work } = getCVData(lang);
+const MONTHS = getMonths(lang);
 ---
 
-<Section title="Experience" hoverColor="yellow">
+<Section title={t('section.experience')} hoverColor="yellow">
     <ul>
         {
             work.map(({name, position, startDate, endDate, summary, skills}) => {
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
-                endDate = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
+                const endDateFormat = `${endDateSplit[0]}/${MONTHS[endDateSplit[1]]}`
                 return (
                     <li>
                         <Article
                             name={name}
                             position={position}
                             startDate={startDate}
-                            endDate={endDate}
+                            endDate={endDate ? endDateFormat : t('experience.present')}
                             summary={summary}
                             skills={skills}
                         >

@@ -2,15 +2,18 @@
 import ThemeIcon from "@app/components/icons/ThemeIcon.astro";
 import PrintIcon from "@app/components/icons/PrintIcon.astro";
 import LogoIcon from "@app/components/icons/LogoIcon.astro";
+import LangToggle from "@app/components/icons/LangToggle.astro";
+import { getLangFromUrl } from "@app/utils/i18n";
 interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
@@ -29,9 +32,11 @@ const { title } = Astro.props;
 							height="50px"
 						></LogoIcon>
 					</div>
-					<ThemeIcon label="Change theme aspect"></ThemeIcon>
-					<PrintIcon label="Print CV"></PrintIcon>
-					<span> ⬅️ Click here </span>
+					<div class="header-buttons">
+						<LangToggle />
+						<ThemeIcon label="Change theme aspect"></ThemeIcon>
+						<PrintIcon label="Print CV"></PrintIcon>
+					</div>
 				</div>
 				
 			</header>
@@ -46,7 +51,8 @@ const { title } = Astro.props;
 </html>
 <style is:global lang="scss">
 	html{
-		font-family: Andale Mono, monospace;
+		font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+		--foreground: 224 71.4% 4.1%;
 	}
 
 	html.dark{
@@ -60,9 +66,16 @@ const { title } = Astro.props;
 		box-sizing: border-box;
 	}
 
+	.header-buttons{
+		display: flex;
+		width: 100%;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
 	footer pre{
 		color: black;
-		font-size: .8rem;
+		font-size: .7rem;
 		max-width: 700px;
 		margin: 0 auto;
 		display: flex;
@@ -88,7 +101,7 @@ const { title } = Astro.props;
 	}
 
 	.container{
-		margin-top: 2rem;
+		margin-top: 3rem;
 		margin-bottom: 4rem;
 	}
 
@@ -141,15 +154,22 @@ const { title } = Astro.props;
 
 	h1, h2, h3, h4 {
 		margin: 0;
-		font-family: Andale Mono, monospace;
+		font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	}
+
+	.mono {
+		font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+	}
+	.sans-serif {
+		font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 	}
 
 	p, pre{
 		text-wrap: pretty;
-		font-size: .9rem;
-		line-height: 1.5;
+		font-size: 0.8rem;
+		line-height: 1.6;
 		margin: 0;
-		color: #555555;
+		color: hsl(var(--foreground) / .8);
 	}
 
 	.layout-container{
@@ -182,11 +202,18 @@ const { title } = Astro.props;
 
 	@media print{
 
+		@page {
+			size: A4;
+			margin: 1.5cm;
+		}
+
 		html{
 			background: #ffffff !important;
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
 		}
 		.container{
-			margin-top: 2rem !important;
+			margin-top: 0.5rem !important;
 		}
 		footer pre{
 			display: none !important;
@@ -194,6 +221,12 @@ const { title } = Astro.props;
 
 		.layout-header{
 			display: none !important;
+		}
+
+		.layout-container{
+			max-width: 100% !important;
+			margin: 0 !important;
+			padding: 0 !important;
 		}
 	}
 

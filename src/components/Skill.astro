@@ -1,23 +1,31 @@
 ---
 import SergiIcon from "@app/components/icons/Icon.astro";
+import { fade } from "astro:transitions";
 interface Props{
     icon: string | undefined,
     width?: string,
     height?: string,
-    background?: string
+    background?: string,
+    noDarkMode?: boolean
 }
 
-const { icon = 'default', width, height, background = '' } = Astro.props
+const { icon = 'default', width, height, background = '', noDarkMode = false } = Astro.props
 ---
 
-<div class="skill">
-    <SergiIcon icon={icon} width={width}, height={height} background={background}>
+<div class={`skill ${noDarkMode ? 'no-dark-mode' : ''}`} >
+    <SergiIcon icon={icon} width={width}, height={height} background={background} >
     </SergiIcon>
 </div>
 
 <style lang="scss">
     .skill{
+        padding: 2px;
         border-radius: 10px;
+    }
+
+    .no-dark-mode {
+
+        background: white;
     }
 
     @media print{

@@ -1,29 +1,33 @@
 ---
 import Section from "@app/components/Section.astro";
 import SkillGroup from "@app/components/SkillGroup.astro";
+import { useTranslations } from '@app/utils/i18n';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
 ---
 
-<Section title="Skills" hoverColor="green" hideSectionOnPrint = {true}>
-
+<Section title={t('section.skills')} hoverColor="green" hideSectionOnPrint = {true}>
     <div class="skills-division-container">
         <div class="skills-col-span-2">
             <SkillGroup
             filter="Frontend"
-            title="Frontend"
+            title={t('skills.frontend')}
             />
         </div>
         <SkillGroup
             filter="Complementary"
-            title="Complementary"
+            title={t('skills.complementary')}
         />
        <SkillGroup
-            title="Cloud"
+            title={t('skills.cloud')}
             filter="DevOps"
        />
        <div class="skills-col-span-2">
             <SkillGroup
                 filter="Backend"
-                title="Backend"
+                title={t('skills.backend')}
             />
        </div>
     </div>

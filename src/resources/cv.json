@@ -1,13 +1,13 @@
 {
     "basics": {
       "name": "Sergio Andrés Rodríguez Pérez",
-      "label": "Electronic Engineer & Developer",
+      "label": "Electronic & Software Engineer",
       "image": "./Sergio_photo_op.webp",
       "email": "sergio.rod.perez@outlook.es",
       "phone": "+57 3163215583",
       "telegram": "https://t.me/Seandrod",
       "url": "",
-      "summary": "Hi my name is Sergio, Electronic Engineer, I have 3+ year of experience in BackEnd microservices, frontend, MVC and embedded development. Currently, involved improving my knowledge cloud services architecture for better performance in client solutions. I work on different integration technologies, tools and frameworks like Node.js, .NET, Next.js, Astro, STM32, Azure DevOps, AWS Ecosystem among others. In process to expertise in Cloud architecture and agile methodologies.\n\nStrong knowledge of DevOps practices and software life cycle. Applying this in ETB & BBVA apps like MiTEB, BBVA app, and backend services.\n\nWith a professional degree in Electronic engineer from Sergio Arboleda University, Bogotá (Colombia), AWS Cloud practitioner certification and AWS Developer Associate incoming, last but no less important English C1.",
+      "summary": "Software Engineer with over 5 years of experience, specialized in developing high-impact technology solutions and cloud architectures. With a solid track record spanning from backend to modern web technologies, I now focus my profile at the intersection of software development and Artificial Intelligence, implementing AI tools to build more competitive products. Committed to technical excellence through Clean Code, DevOps automation, and continuous improvement.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -32,16 +32,28 @@
     },
     "work": [
       {
-        "name": "Accenture with BBVA",
-        "position": "Custom Software Engineering Associate",
+        "name": "BBVA Colombia",
+        "position": "Software Expert I",
         "url": "",
-        "startDate": "2023-02-01",
+        "startDate": "2024-07-04",
         "endDate": null,
-        "summary": "Related in front end development for BBVA apps and websites, using technologies like Web components with Lit-element (now only lit), responsive design, integration with Acoustic teleaf and appsflyer, AWS S3 for deploy storage and BBVA's frameworks base in JS and Java, applying browser advance knowledge to make and efficient and comfortable apps, experience and design.",
+        "summary": "Senior Software Engineer at BBVA specialized in full-stack development (Frontend/Backend) and cloud architectures. Currently focusing on integrating Artificial Intelligence to boost efficiency and innovation in software. Strictly applying industry best practices such as Clean Code, TDD, and agile methodologies to ensure scalable, high-quality products.",
         "highlights": [
           "Started the company"
         ],
-        "skills": ["javascript", "html", "css", "lit", "nodejs","git","aws"]
+        "skills": ["javascript", "Java", "SpringBoot", "typescript", "html", "css", "scss", "lit", "nodejs","git","aws", "jenkins", "E2E test", "selenium", "radish", "unit test", "accessibility test"]
+      },
+      {
+        "name": "Accenture with BBVA",
+        "position": "Associate Software Engineer",
+        "url": "",
+        "startDate": "2023-02-01",
+        "endDate": "2024-06-13",
+        "summary": "Associate Engineer in frontend development for BBVA apps and websites, using technologies such as Web Components with Lit-element, responsive design, integration with Acoustic Teleaf and Appsflyer, AWS S3 for deployment storage and BBVA's JS and Java-based frameworks, applying advanced browser knowledge to build efficient, comfortable applications with an improved user experience and design.",
+        "highlights": [
+          "Started the company"
+        ],
+        "skills": ["javascript", "typescript", "html", "css", "lit", "nodejs","git","aws"]
       },
       {
         "name": "Accenture with ETB",
@@ -49,22 +61,11 @@
         "url": "",
         "startDate": "2022-01-05",
         "endDate": "2023-02-01",
-        "summary": "Developer in Back services, front-end design and database management for different softwares used by ETB, such as SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SRUM, and CI/CD management for code deploy and quality control.",
+        "summary": "Backend services developer, frontend design and database management for different software used by ETB, such as the SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SCRUM, and CI/CD management for code deployment and quality control.",
         "highlights": [
           "Started the company"
         ],
-        "skills": ["mongodb","csharp", "nodejs", "azure", "react","nextjs", "html", "css","javascript"]
-      },
-      {
-        "name": "Solutions",
-        "position": "Software Engineer",
-        "startDate": "2021-06-01",
-        "endDate": "2021-11-01",
-        "summary": "Develop embebed software for an start up company, focus in virtual electronic engineer lab, a solution for student that need real testing electronic components, an online environment designed with virtual reality and phidget boards.",
-        "highlights": [
-          "Started the company"
-        ],
-        "skills": ["c++", "nodejs", "aws", "javascript", "html", "css", "python"]
+        "skills": ["mongodb","C#", "nodejs", "azure", "react","nextjs", "html", "css","javascript"]
       }
     ],
     "volunteer": [{
@@ -85,7 +86,7 @@
       "studyType": "Bachelor",
       "startDate": "2018-01-05",
       "endDate": "2022-01-01",
-      "summary": "Electronic engineering degree with emphasis on IoT, Machine Learning and embedded systems.",
+      "summary": "Electronic engineering program with a focus on software development, covering areas such as programming languages, database management, and system design. The curriculum included practical projects and internships to apply theoretical knowledge in real-world scenarios.",
       "score": "4.4",
       "courses": [
         "DB1101 - Basic SQL"
@@ -97,7 +98,7 @@
       "studyType": "technician",
       "startDate": "2023-08-20",
       "endDate": "2023-10-01",
-      "summary": "Short course",
+      "summary": "Short course focused on the deployment and management of applications using Docker. Covered topics such as containerization, orchestration, and best practices for deploying scalable applications in a cloud environment.",
       "score": "4.4",
       "courses": [
         "DB1101 - Basic SQL"
@@ -112,33 +113,31 @@
     }],
     "certificates": [
       {
-        "name": "Cloud Native: Nodejs Associate",
-        "date": "2024-06-20",
-        "issuer": "Accenture",
+        "name": "Google AI Professional",
+        "date": "2026-04-01",
+        "issuer": "Google",
         "summary": "",
         "url": "https://certificate.com",
-        "skills": ["nodejs"],
+        "skills": [],
         "skill": {}
       },
       {
-      "name": "Desarrollo seguro (CSSLP)",
+        "name": "EF SET Certificate — B2 Upper Intermediate",
+        "date": "2026-04-01",
+        "issuer": "EF Standard English Test",
+        "summary": "English B2 Upper Intermediate",
+        "url": "https://certificate.com",
+        "skills": [],
+        "skill": {}
+      },
+      {
+      "name": "Secure Development (CSSLP)",
       "date": "2024-03-15",
       "issuer": "Net4Skills",
       "summary": "",
       "url": "https://certificate.com",
       "skills": [],
       "skill": {}
-    },
-      {
-      "name": "AWS Certified Cloud Practitioner",
-      "date": "2023-03-07",
-      "issuer": "AWS",
-      "summary": "",
-      "url": "https://certificate.com",
-      "skills": ["aws"],
-      "skill": {
-        "name" : "AWS"
-      }
     },
     {
       "name": " Applied Machine Learning in Python",
@@ -175,8 +174,19 @@
         "iconKey":"aws",
         "":"",
         "level": "Master",
+        "noDarkMode": true,
         "keywords": [
           "Desarrollo Web", "DevOps"
+        ]
+      },
+      {
+        "name": "jenkins",
+        "iconKey":"",
+        "":"",
+        "level": "High",
+        "noDarkMode": true,
+        "keywords": [
+           "DevOps"
         ]
       },
       {
@@ -196,7 +206,7 @@
         ]
       },
       {
-        "name": "Node.js",
+        "name": "Nodejs",
         "iconKey": "nodejs",
         "level": "Master",
         "keywords": [
@@ -285,6 +295,7 @@
         "name": "Next.js",
         "iconKey":"nextjs",
         "level": "Avanzado",
+        "noDarkMode": true,
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
         ]
@@ -309,6 +320,7 @@
         "name": "GitHub",
         "level": "Avanzado",
         "iconKey":"github",
+        "noDarkMode": true,
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
         ]
@@ -354,13 +366,60 @@
       {
         "name": "Codember",
         "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
+        "description": "Interactive programming game with challenges and secrets",
         "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
+          "+2000 active users",
+          "Challenges for any programming language"
         ],
         "url": ""
       }
+    ],
+    "keywords": [
+      "JavaScript",
+      "Java",
+      "Node.js",
+      "Lit.js",
+      "React",
+      "Next.js",
+      "Astro",
+      "spring boot",
+      "spring",
+      "SQL",
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "MongoDB",
+      "jenkins",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "Git",
+      "GitHub",
+      "express",
+      "jira",
+      "sonarqube",
+      "analytics",
+      "sonar",
+      "C#",
+      ".NET",
+      "Python",
+      "Azure",
+      "SCRUM",
+      "python",
+      "Agile",
+      "Web Development",
+      "Frontend Development",
+      "Backend Development",
+      "Fullstack Development",
+      "DevOps",
+      "Agile Methodologies",
+      "Clean Code",
+      "Software Engineering",
+      "Web Components",
+      "Responsive Design",
+      "Adobe Analytics",
+      "TDD",
+      "Design Patterns"
     ]
   }
   

@@ -1,0 +1,32 @@
+---
+import Section from "@app/components/Section.astro";
+import KeywordLabel from "@app/components/KeywordLabel.astro";
+// json cv
+import { getCVData } from '@app/utils/cvUtils';
+import { useTranslations } from '@app/utils/i18n';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
+const { keywords } = getCVData(lang);
+---
+
+<Section title={t('section.keywords')} hoverColor="yellow">
+    <div>
+    {
+        keywords.map((keyword) => {
+            return (
+                <KeywordLabel keyword={keyword}></KeywordLabel>
+            )
+        })
+    }
+    </div>
+</Section>
+
+<style>
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+</style>

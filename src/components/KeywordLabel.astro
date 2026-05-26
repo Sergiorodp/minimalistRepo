@@ -1,0 +1,36 @@
+---
+const { keyword } = Astro.props;
+---
+
+<div>
+    <label class="mono">{keyword}</label>
+</div>
+
+<style lang="scss">
+    div {
+        display: flex;
+        padding: .2rem .5rem;
+        background-color: var(--skill-background-color, #646464);
+        border-radius: 3px;
+    }
+    label{
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #f0f0f0;
+    }
+     :global(.dark){ 
+
+        div {
+            background-color: var(--skill-background-color-dark, #dfdfdf);
+        }
+        label{
+            color: var(--skill-text-color-dark, #333232);
+        }
+        
+     }
+    @media print {
+        div {
+            box-shadow: none;
+        }
+    }
+</style>

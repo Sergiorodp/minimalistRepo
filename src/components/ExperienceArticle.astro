@@ -6,20 +6,16 @@ import { skills as cvSkills } from "@cv";
 
 const {name, position, startDate, endDate, summary, skills} = Astro.props;
 
-const expSkills = skills?.map((skill : string) => {
-        return cvSkills.filter( cvSkill => {
-            return cvSkill?.iconKey?.includes(skill)
-        })[0] ?? {}
-    }) ?? []
+const expSkills = skills
 ---
 
 <article>
     <header>
         <div>
             <h3>{name}</h3>
-            <h4>{position}</h4>
+            <h4 class="mono">{position}</h4>
         </div>
-        <span>{`${startDate} - ${endDate}`}</span>
+        <span class="">{`${startDate} - ${endDate}`}</span>
     </header>
     <p>{summary}</p>
     <SkillsGrid skills={expSkills}>
@@ -34,27 +30,30 @@ const expSkills = skills?.map((skill : string) => {
     }
 
     article{
-        margin-bottom: 1rem;
+        margin-bottom: 1.25rem;
     }
 
     span{
         padding: 0px 1rem 0px 0px;
         display: flex;
         justify-content: end;
-        color: #454545;
+        font-size: 0.75rem;
+        color: #7a7a7a;
     }
 
     h3{
         color: #2c2c2c;
+        font-size: 0.9rem;
     }
 
     h4{
+        margin-top: .25rem;
         color: var(--lightSub);
-        font-size: .9rem;
+        font-size: 0.8rem;
     }
 
     p{
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 
     :global(.dark){
@@ -64,7 +63,7 @@ const expSkills = skills?.map((skill : string) => {
             
             h4{
                 color: var(--darkSub);
-                font-size: .9rem;
+                font-size: 0.8rem;
             }
             span{
                 color: rgb(220, 219, 219);
@@ -85,11 +84,13 @@ const expSkills = skills?.map((skill : string) => {
         }
 
         article{
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
+            break-inside: avoid;
+            page-break-inside: avoid;
         }
 
         span{
-            color: #454545 !important;
+            color: #6d6d6d !important;
         }
 
         h3{

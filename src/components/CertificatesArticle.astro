@@ -24,7 +24,7 @@ const expSkills = skills?.map((skill : string) => {
     <header>
         <div class="header-title-container">
             <h3>{name}</h3>
-            <h4>Issued by {issuer}</h4>
+            <h4 class="mono">Issued by {issuer}</h4>
         </div>
         <Date date={date}></Date>
     </header>
@@ -42,7 +42,7 @@ const expSkills = skills?.map((skill : string) => {
         margin-bottom: 0.5rem;
     }
      article{
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.25rem;
     }
 
     .header-title-container{
@@ -53,14 +53,15 @@ const expSkills = skills?.map((skill : string) => {
     h3{
         color: #454545;
         margin-right: 1rem;
+        font-size: 0.9rem;
     }
 
     h4{
         color: var(--lightSub);
-        font-size: .9rem;
+        font-size: 0.8rem;
     }
     p{
-        font-size: .8rem;
+        font-size: 0.8rem;
         margin-bottom: .5rem;
     }
 
@@ -71,14 +72,16 @@ const expSkills = skills?.map((skill : string) => {
 
             h4{
                 color: var(--darkSub);
-                font-size: .9rem;
+                font-size: 0.8rem;
             }
         }
         
     @media print{
 
         article{
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
+            break-inside: avoid;
+            page-break-inside: avoid;
         }
 
         h3{
