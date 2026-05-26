@@ -101,7 +101,7 @@ const lang = getLangFromUrl(Astro.url);
 	}
 
 	.container{
-		margin-top: 2rem;
+		margin-top: 3rem;
 		margin-bottom: 4rem;
 	}
 
@@ -167,7 +167,7 @@ const lang = getLangFromUrl(Astro.url);
 	p, pre{
 		text-wrap: pretty;
 		font-size: .875rem;
-		line-height: 1.25rem;
+		line-height: 1.6;
 		margin: 0;
 		color: hsl(var(--foreground) / .8);
 	}
@@ -202,11 +202,18 @@ const lang = getLangFromUrl(Astro.url);
 
 	@media print{
 
+		@page {
+			size: A4;
+			margin: 1.5cm;
+		}
+
 		html{
 			background: #ffffff !important;
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
 		}
 		.container{
-			margin-top: 2rem !important;
+			margin-top: 1rem !important;
 		}
 		footer pre{
 			display: none !important;
@@ -214,6 +221,12 @@ const lang = getLangFromUrl(Astro.url);
 
 		.layout-header{
 			display: none !important;
+		}
+
+		.layout-container{
+			max-width: 100% !important;
+			margin: 0 !important;
+			padding: 0 !important;
 		}
 	}
 

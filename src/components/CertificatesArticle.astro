@@ -39,10 +39,10 @@ const expSkills = skills?.map((skill : string) => {
     header{
         display: grid;
         grid-template-columns: 60% 40%;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
     }
      article{
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.75rem;
     }
 
     .header-title-container{
@@ -78,7 +78,9 @@ const expSkills = skills?.map((skill : string) => {
     @media print{
 
         article{
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
+            break-inside: avoid;
+            page-break-inside: avoid;
         }
 
         h3{

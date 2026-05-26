@@ -13,13 +13,16 @@
     define:vars={{hoverColor, sectionDisplay}}
 >
     section{
-        margin: 0 auto 2rem;
+        margin: 0 auto 3rem;
         --pq-title-hover-color: var(--hoverColor);
     }
 
     @media print{
         section{
             display: var(--sectionDisplay, 'block') !important;
+            break-inside: avoid;
+            page-break-inside: avoid;
+            margin-bottom: 1.25rem !important;
         }
     }
 
