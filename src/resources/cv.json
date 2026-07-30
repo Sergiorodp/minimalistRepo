@@ -1,74 +1,112 @@
 {
-    "basics": {
-      "name": "Sergio Andrés Rodríguez Pérez",
-      "label": "Electronic & Software Engineer",
-      "image": "./Sergio_photo_op.webp",
-      "email": "sergio.rod.perez@outlook.es",
-      "phone": "+57 3163215583",
-      "telegram": "https://t.me/Seandrod",
-      "url": "",
-      "summary": "Software Engineer with over 5 years of experience, specialized in developing high-impact technology solutions and cloud architectures. With a solid track record spanning from backend to modern web technologies, I now focus my profile at the intersection of software development and Artificial Intelligence, implementing AI tools to build more competitive products. Committed to technical excellence through Clean Code, DevOps automation, and continuous improvement.",
-      "location": {
-        "address": "",
-        "postalCode": "",
-        "city": "Bogotá",
-        "countryCode": "ES",
-        "region": "Colombia"
+  "basics": {
+    "name": "Sergio Andrés Rodríguez Pérez",
+    "label": "Electronic & Software Engineer",
+    "image": "./Sergio_photo_op.webp",
+    "email": "sergio.rod.perez@outlook.es",
+    "phone": "+57 3163215583",
+    "telegram": "https://t.me/Seandrod",
+    "url": "",
+    "summary": "Software Engineer with over 5 years of experience, specialized in developing high-impact technology solutions and cloud architectures. With a solid track record spanning from backend to modern web technologies, I now focus my profile at the intersection of software development and Artificial Intelligence, implementing AI tools to build more competitive products. Committed to technical excellence through Clean Code, DevOps automation, and continuous improvement.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Bogotá",
+      "countryCode": "ES",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Sergio Andres Rodriguez",
+        "url": "https://www.linkedin.com/in/sergiorodriguezp/",
+        "show": true
       },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "Sergio Andres Rodriguez",
-          "url": "https://www.linkedin.com/in/sergiorodriguezp/",
-          "show" :  true
-        },
-        {
-          "network": "GitHub",
-          "username": "Sergiorodp",
-          "url": "https://github.com/Sergiorodp",
-          "show" :  true
-        }
+      {
+        "network": "GitHub",
+        "username": "Sergiorodp",
+        "url": "https://github.com/Sergiorodp",
+        "show": true
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "BBVA Colombia",
+      "position": "Software Expert I",
+      "url": "https://www.bbva.com.co",
+      "startDate": "2024-07-04",
+      "endDate": null,
+      "summary": "Senior Software Engineer at BBVA specialized in full-stack development (Frontend/Backend) and cloud architectures. Currently focusing on integrating Artificial Intelligence to boost efficiency and innovation in software. Strictly applying industry best practices such as Clean Code, TDD, and agile methodologies to ensure scalable, high-quality products.",
+      "highlights": [
+        "Started the company"
+      ],
+      "skills": [
+        "javascript",
+        "Java",
+        "SpringBoot",
+        "typescript",
+        "html",
+        "css",
+        "scss",
+        "lit",
+        "nodejs",
+        "git",
+        "aws",
+        "jenkins",
+        "E2E test",
+        "selenium",
+        "radish",
+        "unit test",
+        "accessibility test"
       ]
     },
-    "work": [
-      {
-        "name": "BBVA Colombia",
-        "position": "Software Expert I",
-        "url": "",
-        "startDate": "2024-07-04",
-        "endDate": null,
-        "summary": "Senior Software Engineer at BBVA specialized in full-stack development (Frontend/Backend) and cloud architectures. Currently focusing on integrating Artificial Intelligence to boost efficiency and innovation in software. Strictly applying industry best practices such as Clean Code, TDD, and agile methodologies to ensure scalable, high-quality products.",
-        "highlights": [
-          "Started the company"
-        ],
-        "skills": ["javascript", "Java", "SpringBoot", "typescript", "html", "css", "scss", "lit", "nodejs","git","aws", "jenkins", "E2E test", "selenium", "radish", "unit test", "accessibility test"]
-      },
-      {
-        "name": "Accenture with BBVA",
-        "position": "Associate Software Engineer",
-        "url": "",
-        "startDate": "2023-02-01",
-        "endDate": "2024-06-13",
-        "summary": "Associate Engineer in frontend development for BBVA apps and websites, using technologies such as Web Components with Lit-element, responsive design, integration with Acoustic Teleaf and Appsflyer, AWS S3 for deployment storage and BBVA's JS and Java-based frameworks, applying advanced browser knowledge to build efficient, comfortable applications with an improved user experience and design.",
-        "highlights": [
-          "Started the company"
-        ],
-        "skills": ["javascript", "typescript", "html", "css", "lit", "nodejs","git","aws"]
-      },
-      {
-        "name": "Accenture with ETB",
-        "position": "Associate Application Developer",
-        "url": "",
-        "startDate": "2022-01-05",
-        "endDate": "2023-02-01",
-        "summary": "Backend services developer, frontend design and database management for different software used by ETB, such as the SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SCRUM, and CI/CD management for code deployment and quality control.",
-        "highlights": [
-          "Started the company"
-        ],
-        "skills": ["mongodb","C#", "nodejs", "azure", "react","nextjs", "html", "css","javascript"]
-      }
-    ],
-    "volunteer": [{
+    {
+      "name": "Accenture with BBVA",
+      "position": "Associate Software Engineer",
+      "url": "https://www.accenture.com",
+      "startDate": "2023-02-01",
+      "endDate": "2024-06-13",
+      "summary": "Associate Engineer in frontend development for BBVA apps and websites, using technologies such as Web Components with Lit-element, responsive design, integration with Acoustic Teleaf and Appsflyer, AWS S3 for deployment storage and BBVA's JS and Java-based frameworks, applying advanced browser knowledge to build efficient, comfortable applications with an improved user experience and design.",
+      "highlights": [
+        "Started the company"
+      ],
+      "skills": [
+        "javascript",
+        "typescript",
+        "html",
+        "css",
+        "lit",
+        "nodejs",
+        "git",
+        "aws"
+      ]
+    },
+    {
+      "name": "Accenture with ETB",
+      "position": "Associate Application Developer",
+      "url": "https://www.accenture.com",
+      "startDate": "2022-01-05",
+      "endDate": "2023-02-01",
+      "summary": "Backend services developer, frontend design and database management for different software used by ETB, such as the SUMA portal, MiETB, Luz (bot) and self-management services, using agile methodologies such as SCRUM, and CI/CD management for code deployment and quality control.",
+      "highlights": [
+        "Started the company"
+      ],
+      "skills": [
+        "mongodb",
+        "C#",
+        "nodejs",
+        "azure",
+        "react",
+        "nextjs",
+        "html",
+        "css",
+        "javascript"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
@@ -78,8 +116,22 @@
       "highlights": [
         "Awarded 'Volunteer of the Month'"
       ]
-    }],
-    "education": [{
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Internacional de Valencia (VIU)",
+      "url": "https://www.universidadviu.com/",
+      "area": "Master's Degree in Artificial Intelligence",
+      "studyType": "Master's Degree",
+      "startDate": "2026-07-01",
+      "endDate": "2027-10-01",
+      "summary": "Master's program in Artificial Intelligence, covering machine learning, deep learning, natural language processing, and AI system design and deployment.",
+      "score": "",
+      "courses": [],
+      "current": true
+    },
+    {
       "institution": "Sergio Arboleda University",
       "url": "https://www.uoc.edu/portal/es/index.html",
       "area": "Electronic Engineer",
@@ -91,7 +143,8 @@
       "courses": [
         "DB1101 - Basic SQL"
       ]
-    },{
+    },
+    {
       "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "url": "https://www.uoc.edu/portal/es/index.html",
       "area": "Deployment of Docker applications",
@@ -103,34 +156,39 @@
       "courses": [
         "DB1101 - Basic SQL"
       ],
-      "skiills": ["docker"]
-    }],
-    "awards": [{
+      "skiills": [
+        "docker"
+      ]
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [
-      {
-        "name": "Google AI Professional",
-        "date": "2026-04-01",
-        "issuer": "Google",
-        "summary": "",
-        "url": "https://certificate.com",
-        "skills": [],
-        "skill": {}
-      },
-      {
-        "name": "EF SET Certificate — B2 Upper Intermediate",
-        "date": "2026-04-01",
-        "issuer": "EF Standard English Test",
-        "summary": "English B2 Upper Intermediate",
-        "url": "https://certificate.com",
-        "skills": [],
-        "skill": {}
-      },
-      {
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Google AI Professional",
+      "date": "2026-04-01",
+      "issuer": "Google",
+      "summary": "",
+      "url": "https://certificate.com",
+      "skills": [],
+      "skill": {}
+    },
+    {
+      "name": "EF SET Certificate — B2 Upper Intermediate",
+      "date": "2026-04-01",
+      "issuer": "EF Standard English Test",
+      "summary": "English B2 Upper Intermediate",
+      "url": "https://certificate.com",
+      "skills": [],
+      "skill": {}
+    },
+    {
       "name": "Secure Development (CSSLP)",
       "date": "2024-03-15",
       "issuer": "Net4Skills",
@@ -145,9 +203,11 @@
       "issuer": "University of Michigan",
       "summary": "",
       "url": "https://certificate.com",
-      "skills": ["python"],
+      "skills": [
+        "python"
+      ],
       "skill": {
-        "name" : "PYTHON"
+        "name": "PYTHON"
       }
     },
     {
@@ -156,270 +216,326 @@
       "issuer": "Udemy",
       "summary": "",
       "url": "https://certificate.com",
-      "skills": ["nodejs","mongodb", "react"],
+      "skills": [
+        "nodejs",
+        "mongodb",
+        "react"
+      ],
       "skill": {
-        "name" : "Node.js"
+        "name": "Node.js"
       }
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [
-      {
-        "name": "AWS",
-        "iconKey":"aws",
-        "":"",
-        "level": "Master",
-        "noDarkMode": true,
-        "keywords": [
-          "Desarrollo Web", "DevOps"
-        ]
-      },
-      {
-        "name": "jenkins",
-        "iconKey":"",
-        "":"",
-        "level": "High",
-        "noDarkMode": true,
-        "keywords": [
-           "DevOps"
-        ]
-      },
-      {
-        "name": "azure",
-        "level": "medio",
-        "iconKey":"azure",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "DevOps"
-        ]
-      },
-      {
-        "name": "Docker",
-        "level": "Avanzado",
-        "iconKey":"docker",
-        "keywords": [
-          "Desarrollo Web", "DevOps", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "Nodejs",
-        "iconKey": "nodejs",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Backend"
-        ]
-      },
-      {
-        "name": "C#",
-        "level": "Medio",
-        "iconKey":"csharp",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Backend"
-        ]
-      },
-      {
-        "name": ".NET",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Backend"
-        ]
-      },{
-        "name": "mongoDB",
-        "level": "Master",
-        "iconKey":"mongodb",
-        "keywords": [
-          "Desarrollo Web", "Backend"
-        ]
-      },
-      {
-        "name": "Python",
-        "iconKey":"python",
-        "level": "medio",
-        "keywords": [
-          "Desarrollo Web", "Backend"
-        ]
-      },
-      {
-        "name": "PostgreSQL",
-        "iconKey":"postgresql",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "HTML",
-        "level": "Master",
-        "iconKey":"html5",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
-      },
-      {
-        "name": "CSS",
-        "level": "Master",
-        "iconKey":"css",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Master",
-        "iconKey": "javascript",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
-      },
-      {
-        "name": "TypeScript",
-        "iconKey":"typescript",
-        "level": "Avanzado",
+    }
+  ],
+  "skills": [
+    {
+      "name": "AWS",
+      "iconKey": "aws",
+      "": "",
+      "level": "Master",
+      "noDarkMode": true,
       "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
-      {
-        "name": "Astro",
-        "iconKey":"astro",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "iconKey":"nextjs",
-        "level": "Avanzado",
-        "noDarkMode": true,
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "React",
-        "iconKey":"react",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Avanzado",
-        "iconKey":"git",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "iconKey":"github",
-        "noDarkMode": true,
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
-        ]
-      },
-      {
-        "name": "lit",
-        "level": "medio",
-        "iconKey":"lit",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Frontend"
-        ]
-      },
-      {
-        "name": "SCRUM",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Complementary"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "Spanish",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "English",
-        "fluency": "Advanced"
-      }
-    ],
-    "interests": [{
+        "Desarrollo Web",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "jenkins",
+      "iconKey": "",
+      "": "",
+      "level": "High",
+      "noDarkMode": true,
+      "keywords": [
+        "DevOps"
+      ]
+    },
+    {
+      "name": "azure",
+      "level": "medio",
+      "iconKey": "azure",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "iconKey": "docker",
+      "keywords": [
+        "Desarrollo Web",
+        "DevOps",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "Nodejs",
+      "iconKey": "nodejs",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "Medio",
+      "iconKey": "csharp",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Backend"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "mongoDB",
+      "level": "Master",
+      "iconKey": "mongodb",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Python",
+      "iconKey": "python",
+      "level": "medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "iconKey": "postgresql",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "iconKey": "html5",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "iconKey": "css",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "iconKey": "javascript",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "iconKey": "typescript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Astro",
+      "iconKey": "astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "iconKey": "nextjs",
+      "level": "Avanzado",
+      "noDarkMode": true,
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "React",
+      "iconKey": "react",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "iconKey": "git",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Complementary"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "iconKey": "github",
+      "noDarkMode": true,
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Complementary"
+      ]
+    },
+    {
+      "name": "lit",
+      "level": "medio",
+      "iconKey": "lit",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "SCRUM",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Complementary"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
       "keywords": [
         "Ferrets",
         "Unicorns"
       ]
-    }],
-    "references": [{
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [
-      {
-        "name": "Codember",
-        "isActive": true,
-        "description": "Interactive programming game with challenges and secrets",
-        "highlights": [
-          "+2000 active users",
-          "Challenges for any programming language"
-        ],
-        "url": ""
-      }
-    ],
-    "keywords": [
-      "JavaScript",
-      "Java",
-      "Node.js",
-      "Lit.js",
-      "React",
-      "Next.js",
-      "Astro",
-      "spring boot",
-      "spring",
-      "SQL",
-      "HTML",
-      "CSS",
-      "TypeScript",
-      "MongoDB",
-      "jenkins",
-      "PostgreSQL",
-      "AWS",
-      "Docker",
-      "Git",
-      "GitHub",
-      "express",
-      "jira",
-      "sonarqube",
-      "analytics",
-      "sonar",
-      "C#",
-      ".NET",
-      "Python",
-      "Azure",
-      "SCRUM",
-      "python",
-      "Agile",
-      "Web Development",
-      "Frontend Development",
-      "Backend Development",
-      "Fullstack Development",
-      "DevOps",
-      "Agile Methodologies",
-      "Clean Code",
-      "Software Engineering",
-      "Web Components",
-      "Responsive Design",
-      "Adobe Analytics",
-      "TDD",
-      "Design Patterns"
-    ]
-  }
-  
+    }
+  ],
+  "projects": [
+    {
+      "name": "Codember",
+      "isActive": true,
+      "description": "Interactive programming game with challenges and secrets",
+      "highlights": [
+        "+2000 active users",
+        "Challenges for any programming language"
+      ],
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "JavaScript",
+    "Java",
+    "Node.js",
+    "Lit.js",
+    "React",
+    "Next.js",
+    "Astro",
+    "spring boot",
+    "spring",
+    "SQL",
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "MongoDB",
+    "jenkins",
+    "PostgreSQL",
+    "AWS",
+    "Docker",
+    "Git",
+    "GitHub",
+    "express",
+    "jira",
+    "sonarqube",
+    "analytics",
+    "sonar",
+    "C#",
+    ".NET",
+    "Python",
+    "Azure",
+    "SCRUM",
+    "python",
+    "Agile",
+    "Web Development",
+    "Frontend Development",
+    "Backend Development",
+    "Fullstack Development",
+    "DevOps",
+    "Agile Methodologies",
+    "Clean Code",
+    "Software Engineering",
+    "Web Components",
+    "Responsive Design",
+    "Adobe Analytics",
+    "TDD",
+    "Design Patterns"
+  ]
+}

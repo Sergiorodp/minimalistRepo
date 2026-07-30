@@ -17,7 +17,7 @@ const MONTHS = getMonths(lang);
 <Section title={t('section.education')} hoverColor="red">
     <>
         {
-            education.map(({area, summary, startDate, endDate, institution}) => {
+            education.map(({area, summary, startDate, endDate, institution, current}) => {
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
@@ -31,6 +31,7 @@ const MONTHS = getMonths(lang);
                             startDate={startDate}
                             endDate={endDate}
                             summary={summary}
+                            currentLabel={current ? t('education.inProgress') : undefined}
                         >
                         </Article>
                     </li>

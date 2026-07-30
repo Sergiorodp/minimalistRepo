@@ -4,17 +4,13 @@ import { getCVData } from '@app/utils/cvUtils';
 //components
 import Section from "@app/components/Section.astro";
 import Subtitle from "@app/components/SubTitle.astro"
+import Icon from "@app/components/icons/Icon.astro";
 
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
 const { basics } = getCVData(lang);
 
 const {name, label, image, location, profiles, telegram, email} = basics
-
-const ICONS : Record<string, any> = {
-    'GitHub': '🐙',
-    'LinkedIn' : '👨🏻‍🦱'
-}
 ---
 
 <Section>
@@ -27,20 +23,24 @@ const ICONS : Record<string, any> = {
                 <div class="icons">
                     {
                         email && ( 
-                                <a href={`mailto:${email}`} title={`Send a email to ${name} at ${email}`} target="_blank" rel="noopener noreferrer">📧</a>
+                                <a href={`mailto:${email}`} title={`Send a email to ${name} at ${email}`} target="_blank" rel="noopener noreferrer">
+                                    <Icon icon="email" width="20px" height="20px" />
+                                </a>
                             )
                     }
                     {
                         telegram && (
-                        <a href={telegram} title={`telegram from ${name}`} target="_blank" rel="noopener noreferrer">📱</a>
+                        <a href={telegram} title={`telegram from ${name}`} target="_blank" rel="noopener noreferrer">
+                            <Icon icon="telegram" width="20px" height="20px" />
+                        </a>
                         )
                     }
                     {
                         profiles.map(({network, url}) => {
-                            const icon = ICONS[network] ?? '❤️'
-    
                             return(
-                                <a href={url} title={`${network} - ${name} `} target="_blank" rel="noopener noreferrer">{icon}</a>
+                                <a href={url} title={`${network} - ${name} `} target="_blank" rel="noopener noreferrer">
+                                    <Icon icon={network.toLowerCase()} width="20px" height="20px" />
+                                </a>
                             )
                         })
                     }
@@ -103,13 +103,27 @@ const ICONS : Record<string, any> = {
     footer .icons{
         display: flex;
         padding: .875rem 0;
-        width: 120px;
-        justify-content: space-between;
-        font-size: 1.3rem;
-        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 14px;
 
         a{
-            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: #555;
+            transition: color 0.2s;
+
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+
+    :global(.dark) footer .icons a{
+        color: #aaa;
+
+        &:hover{
+            color: #fff;
         }
     }
 
@@ -135,7 +149,7 @@ const ICONS : Record<string, any> = {
         }
 
         footer .icons{
-            gap: 1vw;
+            gap: 12px;
         }
     }
 

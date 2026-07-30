@@ -34,38 +34,75 @@
     {
       "name": "BBVA Colombia",
       "position": "Software Expert I",
-      "url": "",
+      "url": "https://www.bbva.com.co",
       "startDate": "2024-07-04",
       "endDate": null,
       "summary": "Ingeniero de Software Senior en BBVA especializado en desarrollo integral (Frontend/Backend) y arquitecturas en la nube. Actualmente, enfoco mi perfil en la integración de Inteligencia Artificial para potenciar la eficiencia y la innovación en el software. Aplico estrictamente las mejores prácticas de la industria, como Clean Code, TDD y metodologías ágiles, garantizando productos escalables y de alta calidad.",
       "highlights": [
         "Started the company"
       ],
-      "skills": ["javascript", "Java", "SpringBoot", "typescript", "html", "css", "scss", "lit", "nodejs", "git", "aws", "jenkins", "E2E test", "selenium", "radish", "unit test", "accessibility test"]
+      "skills": [
+        "javascript",
+        "Java",
+        "SpringBoot",
+        "typescript",
+        "html",
+        "css",
+        "scss",
+        "lit",
+        "nodejs",
+        "git",
+        "aws",
+        "jenkins",
+        "E2E test",
+        "selenium",
+        "radish",
+        "unit test",
+        "accessibility test"
+      ]
     },
     {
       "name": "Accenture with BBVA",
       "position": "Ingeniero de Software Asociado",
-      "url": "",
+      "url": "https://www.accenture.com",
       "startDate": "2023-02-01",
       "endDate": "2024-06-13",
       "summary": "Ingeniero Asociado en el desarrollo frontend para apps y sitios web de BBVA, utilizando tecnologías como Web Components con Lit-element, diseño responsive, integración con Acoustic teleaf y Appsflyer, AWS S3 para almacenamiento de despliegues y frameworks base de BBVA en JS y Java, aplicando conocimientos avanzados de navegador para crear aplicaciones eficientes, cómodas y con una mejor experiencia y diseño.",
       "highlights": [
         "Started the company"
       ],
-      "skills": ["javascript", "typescript", "html", "css", "lit", "nodejs", "git", "aws"]
+      "skills": [
+        "javascript",
+        "typescript",
+        "html",
+        "css",
+        "lit",
+        "nodejs",
+        "git",
+        "aws"
+      ]
     },
     {
       "name": "Accenture with ETB",
       "position": "Desarrollador de Aplicaciones Asociado",
-      "url": "",
+      "url": "https://www.accenture.com",
       "startDate": "2022-01-05",
       "endDate": "2023-02-01",
       "summary": "Desarrollador de servicios backend, diseño frontend y gestión de bases de datos para diferentes softwares utilizados por ETB, como el portal SUMA, MiETB, Luz (bot) y servicios de autogestión, utilizando metodologías ágiles como SCRUM, y gestión de CI/CD para despliegue de código y control de calidad.",
       "highlights": [
         "Started the company"
       ],
-      "skills": ["mongodb", "C#", "nodejs", "azure", "react", "nextjs", "html", "css", "javascript"]
+      "skills": [
+        "mongodb",
+        "C#",
+        "nodejs",
+        "azure",
+        "react",
+        "nextjs",
+        "html",
+        "css",
+        "javascript"
+      ]
     }
   ],
   "volunteer": [
@@ -82,6 +119,18 @@
     }
   ],
   "education": [
+    {
+      "institution": "Universidad Internacional de Valencia (VIU)",
+      "url": "https://www.universidadviu.com/",
+      "area": "Maestría en Inteligencia Artificial",
+      "studyType": "Maestría",
+      "startDate": "2026-07-01",
+      "endDate": "2027-10-01",
+      "summary": "Programa de maestría en Inteligencia Artificial, que abarca aprendizaje automático, aprendizaje profundo, procesamiento de lenguaje natural, y diseño y despliegue de sistemas de IA.",
+      "score": "",
+      "courses": [],
+      "current": true
+    },
     {
       "institution": "Sergio Arboleda University",
       "url": "https://www.uoc.edu/portal/es/index.html",

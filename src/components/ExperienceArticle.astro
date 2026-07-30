@@ -1,10 +1,11 @@
 ---
 import { FONT_COLORS } from "@app/utils/Colors";
 import SkillsGrid from "@app/components/SkillsGrid.astro";
+import StatusLabel from "@app/components/StatusLabel.astro";
 
 import { skills as cvSkills } from "@cv";
 
-const {name, position, startDate, endDate, summary, skills} = Astro.props;
+const {name, url, position, startDate, endDate, summary, skills, currentLabel} = Astro.props;
 
 const expSkills = skills
 ---
@@ -12,7 +13,13 @@ const expSkills = skills
 <article>
     <header>
         <div>
-            <h3>{name}</h3>
+            <div class="titleRow">
+                {url
+                    ? <a href={url} target="_blank" rel="noopener noreferrer"><h3>{name}</h3></a>
+                    : <h3>{name}</h3>
+                }
+                {currentLabel && <StatusLabel text={currentLabel} />}
+            </div>
             <h4 class="mono">{position}</h4>
         </div>
         <span class="">{`${startDate} - ${endDate}`}</span>
@@ -27,6 +34,22 @@ const expSkills = skills
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-bottom: 0.5rem;
+    }
+
+    header > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+
+    .titleRow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: nowrap;
+        white-space: nowrap;
     }
 
     article{
@@ -44,6 +67,17 @@ const expSkills = skills
     h3{
         color: #2c2c2c;
         font-size: 0.9rem;
+        white-space: nowrap;
+    }
+
+    .titleRow a{
+        text-decoration: none;
+        color: inherit;
+
+        &:hover h3{
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
     }
 
     h4{

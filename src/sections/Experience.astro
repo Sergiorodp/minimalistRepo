@@ -15,7 +15,7 @@ const MONTHS = getMonths(lang);
 <Section title={t('section.experience')} hoverColor="yellow">
     <ul>
         {
-            work.map(({name, position, startDate, endDate, summary, skills}) => {
+            work.map(({name, url, position, startDate, endDate, summary, skills}) => {
                 const startSplit = startDate?.split('-')
                 const endDateSplit = endDate?.split('-') ?? obtenerFechaActualISO().split('-')
                 startDate = `${startSplit[0]}/${MONTHS[startSplit[1]]}`
@@ -24,11 +24,13 @@ const MONTHS = getMonths(lang);
                     <li>
                         <Article
                             name={name}
+                            url={url}
                             position={position}
                             startDate={startDate}
                             endDate={endDate ? endDateFormat : t('experience.present')}
                             summary={summary}
                             skills={skills}
+                            currentLabel={!endDate ? t('work.current') : undefined}
                         >
                         </Article>
                     </li>

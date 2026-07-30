@@ -9,6 +9,7 @@ import Experience from '@app/sections/Experience.astro';
 import Skills from '@app/sections/Skills.astro';
 import Certifications from '@app/sections/Certificates.astro';
 import KeyWords from '@app/sections/KeyWords.astro';
+import { FEATURE_FLAGS } from '@app/utils/featureFlags';
 
 const lang = 'es' as const;
 ---
@@ -19,7 +20,6 @@ const lang = 'es' as const;
 	<Experience lang={lang}></Experience>
 	<Education lang={lang}></Education>
 	<Certifications lang={lang}/>
-	<Skills lang={lang}/>
+	{FEATURE_FLAGS.showSkillsSection && <Skills lang={lang}/>}
 	<KeyWords lang={lang}/>
 </Layout>
-
